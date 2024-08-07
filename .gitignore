@@ -42,3 +42,6 @@ yarn.lock
 
 # TSC build output
 build
+
+# config build output
+.config.out

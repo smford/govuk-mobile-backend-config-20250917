@@ -1,0 +1,50 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Mobile backend config version document",
+    "description": "A version document which captures a set of configuration at a given time",
+    "type": "object",
+    "properties": {
+        "metadata": {
+            "type": "object",
+            "properties": {
+                "configVersion": {
+                    "description": "Version number, expressed in SemVer",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "configVersion"
+            ]
+        },
+        "environments": {
+            "type": "object",
+            "properties": {
+                "default": {
+                    "description": "Default configuration applied unless overridden",
+                    "type": "object",
+                    "properties": {
+                        "ios": {
+                            "description": "Default config for iOS",
+                            "type": "object"
+                        },
+                        "android": {
+                            "description": "Default config for Android",
+                            "type": "object"
+                        }
+                    },
+                    "required": [
+                        "ios",
+                        "android"
+                    ]
+                }
+            },
+            "required": [
+                "default"
+            ]
+        }
+    },
+    "required": [
+        "metadata",
+        "environments"
+    ]
+}

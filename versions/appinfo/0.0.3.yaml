@@ -1,0 +1,26 @@
+metadata:
+  configVersion: 0.0.3
+environments:
+  default: # base configuration that can be overridden
+    android:
+      platform: Android
+      available: true
+      minimumVersion: 1.0.0
+      recommendedVersion: 1.2.0
+      releaseFlags:
+        featureOne: true
+        featureTwo: false
+    ios:
+      platform: iOS
+      available: true
+      minimumVersion: 2.0.1
+      recommendedVersion: 2.2.0
+      releaseFlags:
+        featureOne: true
+        featureTwo: true
+      someOtherProperty: 'fish chips beans'
+  production:
+    android:
+      releaseFlags:
+        featureOne: false # turn featureOne off in prod for Android
+  bananas: {}
