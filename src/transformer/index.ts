@@ -2,7 +2,7 @@ import {ConfigOutput, Platform} from '../types/config-output';
 import {ConfigVersionDocument} from '../types/config-version-document';
 import {DefaultEnv} from '../types/config-version-document';
 import {Env} from '../types/environment';
-import merge = require('lodash.merge');
+import mergeObjects = require('lodash.merge');
 
 export abstract class Transformer {
   abstract transform(versionDocument: ConfigVersionDocument): ConfigOutput;
@@ -24,9 +24,7 @@ export class ConfigTransformer extends Transformer {
       ConfigTransformer.#PLATFORMS.forEach((plt: Platform) => {
         output[env][plt] = {
           platform: findPlatformOrDefault(defaultConfig, envConfig, plt),
-
-          // merge the default and env-specific config objects using lodash.merge; append version string and timestamp
-          config: merge({}, defaultConfig[plt], envConfig[plt], {
+          config: mergeObjects({}, defaultConfig[plt], envConfig[plt], {
             version: versionDocument.metadata.configVersion,
             lastUpdated: timestamp,
           }),
