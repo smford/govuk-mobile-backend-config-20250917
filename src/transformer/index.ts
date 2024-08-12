@@ -1,11 +1,17 @@
 import {ConfigOutput, Platform} from '../types/config-output';
 import {ConfigVersionDocument} from '../types/config-version-document';
+import {DefaultEnv} from '../types/config-version-document';
+import {Env} from '../types/environment';
 import merge = require('lodash.merge');
 
-export class Transformer {
+export abstract class Transformer {
+  abstract transform(versionDocument: ConfigVersionDocument): ConfigOutput;
+}
+
+export class ConfigTransformer extends Transformer {
   static #PLATFORMS: Platform[] = ['ios', 'android'];
 
-  transform(versionString: string, versionDocument: ConfigVersionDocument) {
+  transform(versionDocument: ConfigVersionDocument) {
     const timestamp = new Date().toISOString();
     const defaultConfig = versionDocument.environments.default;
     const environments = Object.keys(versionDocument.environments).filter(e => e !== 'default');
@@ -15,24 +21,31 @@ export class Transformer {
     environments.forEach(env => {
       const envConfig = versionDocument.environments[env];
       output[env] = {};
-      Transformer.#PLATFORMS.forEach((plt: Platform) => {
+      ConfigTransformer.#PLATFORMS.forEach((plt: Platform) => {
         output[env][plt] = {
-          // set the overall platform property to the env-specific platform, if it exists, or the default
-          platform:
-            envConfig[plt] && envConfig[plt].platform
-              ? envConfig[plt].platform
-              : defaultConfig[plt].platform,
+          platform: findPlatformOrDefault(defaultConfig, envConfig, plt),
 
           // merge the default and env-specific config objects using lodash.merge; append version string and timestamp
           config: merge({}, defaultConfig[plt], envConfig[plt], {
-            version: versionString,
+            version: versionDocument.metadata.configVersion,
             lastUpdated: timestamp,
           }),
         };
-        // delete the platform key from the config object
+
+        // `platform` sits at the top level not in the config sub-object
         delete output[env][plt].config.platform;
       });
     });
+
+    function findPlatformOrDefault(
+      defaultConfig: DefaultEnv,
+      envConfig: Env,
+      platform: Platform
+    ): string {
+      return envConfig[platform] && envConfig[platform].platform
+        ? envConfig[platform].platform
+        : defaultConfig[platform].platform;
+    }
 
     return output;
   }

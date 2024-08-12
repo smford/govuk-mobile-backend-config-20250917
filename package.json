@@ -34,6 +34,7 @@
     "@types/jest": "^29.5.12",
     "@types/lodash.merge": "^4.6.9",
     "@types/node": "20.12.7",
+    "@typestrong/ts-mockito": "^2.7.9",
     "gts": "^5.3.1",
     "jest": "^29.7.0",
     "typescript": "^5.1.6"

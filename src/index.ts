@@ -19,7 +19,7 @@ function generate(filename: string) {
 
 function build(opts: GenerateOpts) {
   const {inputDirectory, outputDirectory, omitSignature, localSignature} = opts;
-  console.log('generate', inputDirectory, outputDirectory, omitSignature, localSignature);
+  processor.build(inputDirectory, outputDirectory, omitSignature, localSignature);
 }
 
 program

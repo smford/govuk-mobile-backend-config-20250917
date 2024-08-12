@@ -1,21 +1,16 @@
+import {Env} from './environment';
+
 interface Metadata {
   configVersion: string;
 }
 
-// disabling eslint because these really can be anything
-/* eslint-disable */
-interface DefaultEnv {
-    // in 'default', both these must exist
+export interface DefaultEnv extends Omit<Env, 'ios' | 'android'> {
+  // in 'default', both these must exist
+  /* eslint-disable */
     ios: any;
     android: any;
+    /* eslint-enable */
 }
-
-interface Env {
-    // for other envs, they may or may not
-    ios?: any;
-    android?: any;
-}
-/* eslint-enable */
 
 interface EnvironmentConfigBase {
   default: DefaultEnv;
@@ -28,4 +23,9 @@ type EnvironmentConfig = EnvironmentConfigBase & {[key: string]: Env};
 export interface ConfigVersionDocument {
   metadata: Metadata;
   environments: EnvironmentConfig;
+}
+
+export interface ConfigVersionDocumentBundle {
+  versionString: string;
+  versionDocument: ConfigVersionDocument;
 }
