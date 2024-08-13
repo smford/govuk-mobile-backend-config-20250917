@@ -25,6 +25,12 @@ describe('FileHandler#extractVersionFromFilename', () => {
     expect(res).toEqual(version);
   });
 
+  it('also works with toml', () => {
+    const filename = '/path/to/file/7.6.1.toml';
+    const res = fileHandler.extractVersionFromFilename(filename);
+    expect(res).toEqual('7.6.1');
+  });
+
   it('extracts a version number with additional details from a filename', () => {
     const version = randomSemver();
     const filename = `/path/to/file/${version}+rc2.yaml`;
