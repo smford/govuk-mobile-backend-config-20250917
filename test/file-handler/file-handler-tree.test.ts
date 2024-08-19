@@ -14,7 +14,7 @@ afterEach(() => {
 });
 
 describe('FileHandler#buildTree', () => {
-    it('builds a tree of files to be processed', () => {
+    it('builds a tree of files to be processed, choosing the latest version of each', () => {
         const handler = new FileHandler({
             inputDirectory: './test/file-handler/fixtures',
             outputDirectory: testDirectory,

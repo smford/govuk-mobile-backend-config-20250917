@@ -3,7 +3,7 @@ import path = require('path');
 import { readFileSync } from 'fs';
 import { parse } from 'yaml';
 import TOML from '@ltd/j-toml';
-import { ConfigFileTree } from '../types/config-file-tree';
+import { FileTree, MultiFileTree } from '../types/config-file-tree';
 import { readdirSync, statSync } from 'fs';
 import { SemVer } from 'semver';
 import merge = require('lodash.merge');
@@ -72,20 +72,12 @@ export class FileHandler {
         return JSON.parse(JSON.stringify(TOML.parse(file, opts))) as unknown as ConfigVersionDocument;
     }
 
-    buildTree(): ConfigFileTree {
-        if (!this.opts) {
-            throw new Error('Input and output directories must be specified.')
-        }
-
+    buildTree(): FileTree {
         const opts = this.opts
-
-        interface MiniTree {
-            [dir: string]: string[]
-        }
 
         // recursively look through `dir` for .`ext` files
         function findFilesWithExt(dir: string, ext: string) {
-            const output: MiniTree = {};
+            const output: MultiFileTree = {};
             const files = readdirSync(dir);
             for (const file of files) {
                 const filePath = path.join(dir, file);
@@ -110,8 +102,8 @@ export class FileHandler {
             return [directory, file];
         }
 
-        function findLatest(tree: MiniTree) {
-            const output: ConfigFileTree = {};
+        function findLatest(tree: MultiFileTree) {
+            const output: FileTree = {};
             Object.keys(tree).forEach(dir => {
                 output[dir] = tree[dir].sort(sortBySemVer)[0]
             })
