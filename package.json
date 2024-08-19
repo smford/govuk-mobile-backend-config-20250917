@@ -13,7 +13,7 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run lint"
+    "_posttest": "npm run lint"
   },
   "repository": {
     "type": "git",
