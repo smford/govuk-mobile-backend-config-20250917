@@ -1,0 +1,20 @@
+[metadata]
+configVersion = "0.0.3"
+
+[environments]
+test = {}
+production = {}
+
+[environments.default.android]
+platform = "Android"
+someItem = "this"
+otherItem = 234
+
+[environments.default.ios]
+platform = "iOS"
+someItem = "this"
+otherItem = 234
+aBoolean = true
+
+[environments.integration.ios]
+someItem = "that"

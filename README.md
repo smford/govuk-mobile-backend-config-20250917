@@ -20,7 +20,10 @@ npm start generate "<filename>"
 npm run --silent start generate "<filename>"
 
 # generate a tree of config using the latest version detected
-npm start build "[options]"
+npm start build -- "[options]" "<environment>"
+
+# to generate an output tree using the 'dummydata' directory
+npm start build -- production --input-directory ./dummydata
 ```
 
 ## Linting

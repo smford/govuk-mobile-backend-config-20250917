@@ -1,8 +1,7 @@
-
 export interface FileTree {
-    [directoryPath: string]: string
+  [directoryPath: string]: string;
 }
 
 export interface MultiFileTree {
-    [directoryPath: string]: string[]
+  [directoryPath: string]: string[];
 }

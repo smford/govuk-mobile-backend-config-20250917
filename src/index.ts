@@ -17,9 +17,9 @@ function generate(filename: string) {
   processor.generate(filename);
 }
 
-function build(opts: GenerateOpts) {
+function build(environment: string, opts: GenerateOpts) {
   const {inputDirectory, outputDirectory, omitSignature, localSignature} = opts;
-  processor.build(inputDirectory, outputDirectory, omitSignature, localSignature);
+  processor.build(inputDirectory, outputDirectory, omitSignature, localSignature, environment);
 }
 
 program
@@ -48,13 +48,14 @@ program
   .description(
     'Generate an entire tree of config files using the latest detected config version documents'
   )
+  .argument('<environment>', 'The GOV.UK environment for which to generate the build')
   .option(
-    '--input-directory',
+    '--input-directory <input-directory>',
     'The input directory where config version documents are found',
     './versions'
   )
   .option(
-    '--output-directory',
+    '--output-directory <output-directory>',
     'The directory to write the generated config to (WILL BE OVERWRITTEN)',
     './config.out'
   )

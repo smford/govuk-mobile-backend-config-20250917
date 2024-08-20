@@ -9,7 +9,7 @@ export abstract class Transformer {
 }
 
 export class ConfigTransformer extends Transformer {
-  static #PLATFORMS: Platform[] = ['ios', 'android'];
+  static #PLATFORMS: Platform[] = Object.values(Platform);
 
   transform(versionDocument: ConfigVersionDocument) {
     const timestamp = new Date().toISOString();
