@@ -25,7 +25,7 @@ export class LocalSigner extends Signer<string> {
     );
   }
 
-  sign(data: string): string {
+  async sign(data: string): Promise<string> {
     const signer = createSign('sha256');
     signer.update(data);
     signer.end();

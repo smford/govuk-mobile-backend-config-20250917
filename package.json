@@ -43,9 +43,11 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@aws-sdk/client-kms": "^3.635.0",
     "@ltd/j-toml": "^1.38.0",
     "ajv": "^8.17.1",
     "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
     "lodash.merge": "^4.6.2",
     "semver": "^7.6.3",
     "yaml": "^2.5.0"

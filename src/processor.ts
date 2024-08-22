@@ -25,7 +25,14 @@ export class Processor {
     op.run();
   }
 
-  build(inDir: string, outDir: string, noSig: boolean, localSig: boolean, environment: string) {
+  async build(
+    inDir: string,
+    outDir: string,
+    noSig: boolean,
+    localSig: boolean,
+    environment: string,
+    keyId?: string
+  ) {
     const buildOpts = {
       environment,
       inputDirectory: inDir,
@@ -36,18 +43,21 @@ export class Processor {
     };
 
     const fileHandler = new FileHandler(buildOpts);
-    const signer = this.#selectSigner(localSig, noSig);
+    const signer = this.#selectSigner(localSig, noSig, keyId);
     const op = new BuildOperation(buildOpts, fileHandler, this.transformer, signer);
-    op.run();
+    await op.run();
   }
 
-  #selectSigner(localSig: boolean, noSig: boolean): ConfigSigner {
+  #selectSigner(localSig: boolean, noSig: boolean, keyId?: string): ConfigSigner {
     if (localSig) {
       return ConfigSigner.local();
     } else if (noSig) {
       return ConfigSigner.noop();
     }
-    return ConfigSigner.kms();
+    if (keyId) {
+      return ConfigSigner.kms(keyId);
+    }
+    throw new Error('KMS Key ID not specified');
   }
 }
 
@@ -133,11 +143,11 @@ export class BuildOperation extends Operation<BuildParams> {
     this.configSigner = configSigner;
   }
 
-  run(): void {
+  async run(): Promise<void> {
     const tree = this.fileHandler.buildTree();
     const env = this.params.environment;
     console.log('environment', env);
-    Object.keys(tree).forEach(dir => {
+    for (const dir of Object.keys(tree)) {
       const doc = this.fileHandler.loadDocument(tree[dir], dir);
       const output = this.transformer.transform(doc);
       const envConfig = output[env];
@@ -145,9 +155,9 @@ export class BuildOperation extends Operation<BuildParams> {
         throw new Error(`Config for environment '${env}' not found`);
       }
 
-      const signedConfig = this.configSigner.sign(envConfig);
+      const signedConfig = await this.configSigner.sign(envConfig);
       console.log('writing:', dir);
       this.fileHandler.writeTree(dir, signedConfig);
-    });
+    }
   }
 }

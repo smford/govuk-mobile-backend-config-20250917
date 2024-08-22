@@ -7,7 +7,7 @@ import {MockSigner} from '../utils/mocks';
 const fakeSignature = 'FAKE_SIGNATURE';
 
 const signer = mock(MockSigner);
-when(signer.sign(anything())).thenReturn(fakeSignature);
+when(signer.sign(anything())).thenResolve(fakeSignature);
 
 const dummyEnv: Env = {
   ios: {
@@ -32,8 +32,8 @@ beforeEach(() => {
 });
 
 describe('ConfigSigner', () => {
-  it('adds the signature in the correct place for iOS', () => {
-    const output = configSigner.sign(dummyEnv);
+  it('adds the signature in the correct place for iOS', async () => {
+    const output = await configSigner.sign(dummyEnv);
     expect(output.ios).toEqual({
       platform: 'iOS',
       config: {
@@ -43,8 +43,8 @@ describe('ConfigSigner', () => {
     });
   });
 
-  it('adds the signature in the correct place for Android', () => {
-    const output = configSigner.sign(dummyEnv);
+  it('adds the signature in the correct place for Android', async () => {
+    const output = await configSigner.sign(dummyEnv);
     expect(output.android).toEqual({
       platform: 'Android',
       config: {

@@ -16,20 +16,20 @@ export class ConfigSigner extends Signer<Env> {
     return new ConfigSigner(new LocalSigner());
   }
 
-  static kms(): ConfigSigner {
-    return new ConfigSigner(new KmsSigner());
+  static kms(keyId: string): ConfigSigner {
+    return new ConfigSigner(new KmsSigner(keyId));
   }
 
   static noop(): ConfigSigner {
     return new ConfigSigner(new DummySigner());
   }
 
-  sign(data: Env): Env {
-    Object.values(Platform).forEach(plt => {
+  async sign(data: Env): Promise<Env> {
+    for (const plt of Object.values(Platform)) {
       const signData = JSON.stringify(data[plt].config);
-      const signature = this.signer.sign(signData);
+      const signature = await this.signer.sign(signData);
       data[plt].signature = signature;
-    });
+    }
     return data;
   }
 }
