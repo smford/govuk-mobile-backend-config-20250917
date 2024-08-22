@@ -25,9 +25,8 @@ export class FileHandler {
 
   static forFile(fileName: string): FileHandler {
     const ext = path.extname(fileName);
-    const inDir = path.dirname(fileName);
     return new FileHandler({
-      inputDirectory: inDir,
+      inputDirectory: '',
       outputDirectory: '',
       fileExtension: ext,
     });
