@@ -4,7 +4,7 @@ This repository contains static backend config for the GOV.UK mobile apps.
 ## How to use
 There are several subprograms that can be run to process the config, allowing for a modular design and running in a variety of contexts - e.g. on CI or local laptop. All of the subcommands can expose help information by running `npm start help <subcommand>`.
 
-There are some example config version documents in ./versions/appinfo
+There are some example config version documents in ./dummydata/appinfo
 
 ```shell
 # it is recommended to start here
