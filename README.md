@@ -67,6 +67,9 @@ aws --profile localstack kms get-public-key \
 
 In order to generate LocalStack KMS signatures, store the `KeyId` in an environment variable called `KMS_KEY_ID` (you can do this by creating a `.env` file in this directory).
 
+You can get a list of existing LocalStack keys using:
+`aws --profile localstack kms list-keys`
+
 ### Verifying signatures
 
 #### Local signing
