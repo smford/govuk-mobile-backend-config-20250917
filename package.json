@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Static backend configuration for GOV.UK mobile apps",
   "main": "index.ts",
+  "engines": {
+    "node": ">=11.6.0"
+  },
   "scripts": {
     "prestart": "npm run compile",
     "start": "node build/src/index.js",
@@ -13,7 +16,7 @@
     "fix": "gts fix",
     "prepare": "npm run compile",
     "pretest": "npm run compile",
-    "posttest": "npm run lint"
+    "_posttest": "npm run lint"
   },
   "repository": {
     "type": "git",

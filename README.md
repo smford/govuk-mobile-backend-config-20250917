@@ -26,6 +26,46 @@ npm start build -- "[options]" "<environment>"
 npm start build -- production --input-directory ./dummydata
 ```
 
+### Running KMS locally to test signatures
+First install LocalStack if not already installed:
+`brew install localstack/tap/localstack-cli`
+
+Start it running:
+`localstack start -d`
+
+Pop some LocalStack config in `~/.aws/config`:
+```
+[localstack]
+region=us-east-1
+output=json
+endpoint_url=http://localhost:4566
+```
+
+Pop some LocalStack credentials in `~/.aws/credentials`:
+```
+[localstack]
+aws_access_key_id=test
+aws_secret_access_key=test
+```
+
+Create a KMS key:
+`aws --profile localstack kms create-key --key-usage SIGN_VERIFY --key-spec ECC_NIST_P256`
+Note the `KeyId` in the response
+
+'Download' the public key using:
+`aws --profile localstack kms get-public-key --key-id <KeyId from previous command>`
+
+Store the public key in a `.der` file using:
+```shell
+mkdir -p ./keys # make sure the keys directory exists
+aws --profile localstack kms get-public-key \
+    --key-id <KeyId from previous command> \
+    --output text \
+    --query PublicKey | base64 --decode > ./keys/kms_public.der
+```
+(This is the same as using the previous command, then copying the public key, decoding it and storing the result in a file.)
+
+
 ## Linting
 You can run the linter using `npm run lint`. This will output a set of warnings. This will run on the CI server so it's important to fix any linting issues before pushing.
 

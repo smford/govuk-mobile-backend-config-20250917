@@ -1,4 +1,5 @@
 import {FileHandler} from './file-handler';
+import {ConfigSigner} from './signing/config-signer';
 import {ConfigTransformer, Transformer} from './transformer';
 import {ConfigVersionDocumentBundle} from './types/config-version-document';
 import {ConfigVersionDocumentValidator, Validator} from './validator';
@@ -35,8 +36,18 @@ export class Processor {
     };
 
     const fileHandler = new FileHandler(buildOpts);
-    const op = new BuildOperation(buildOpts, fileHandler, this.transformer);
+    const signer = this.#selectSigner(localSig, noSig);
+    const op = new BuildOperation(buildOpts, fileHandler, this.transformer, signer);
     op.run();
+  }
+
+  #selectSigner(localSig: boolean, noSig: boolean): ConfigSigner {
+    if (localSig) {
+      return ConfigSigner.local();
+    } else if (noSig) {
+      return ConfigSigner.noop();
+    }
+    return ConfigSigner.kms();
   }
 }
 
@@ -108,26 +119,35 @@ interface BuildParams {
 export class BuildOperation extends Operation<BuildParams> {
   fileHandler: FileHandler;
   transformer: Transformer;
+  configSigner: ConfigSigner;
 
-  constructor(params: BuildParams, fileHandler: FileHandler, transformer: Transformer) {
+  constructor(
+    params: BuildParams,
+    fileHandler: FileHandler,
+    transformer: Transformer,
+    configSigner: ConfigSigner
+  ) {
     super(params);
     this.fileHandler = fileHandler;
     this.transformer = transformer;
+    this.configSigner = configSigner;
   }
 
   run(): void {
     const tree = this.fileHandler.buildTree();
+    const env = this.params.environment;
+    console.log('environment', env);
     Object.keys(tree).forEach(dir => {
-      const env = this.params.environment;
       const doc = this.fileHandler.loadDocument(tree[dir], dir);
       const output = this.transformer.transform(doc);
       const envConfig = output[env];
       if (!envConfig) {
         throw new Error(`Config for environment '${env}' not found`);
       }
-      console.log('environment', env);
-      console.log('WRITE TO FILE', dir);
-      this.fileHandler.writeTree(dir, envConfig);
+
+      const signedConfig = this.configSigner.sign(envConfig);
+      console.log('writing:', dir);
+      this.fileHandler.writeTree(dir, signedConfig);
     });
   }
 }
