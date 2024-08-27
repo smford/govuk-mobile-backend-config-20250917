@@ -1,3 +1,4 @@
+import {Signer} from '../../src/signing';
 import {Transformer} from '../../src/transformer';
 import {ConfigOutput} from '../../src/types/config-output';
 import {ConfigVersionDocumentBundle} from '../../src/types/config-version-document';
@@ -13,5 +14,11 @@ export class MockTransformer extends Transformer {
 export class MockCvdValidator extends Validator<ConfigVersionDocumentBundle> {
   validate(): ValidationResult {
     return new ValidationResult();
+  }
+}
+
+export class MockSigner<T> extends Signer<T> {
+  sign(data: T): Promise<T> {
+    return Promise.resolve(data);
   }
 }

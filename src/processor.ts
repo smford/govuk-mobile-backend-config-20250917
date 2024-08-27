@@ -1,4 +1,5 @@
 import {FileHandler} from './file-handler';
+import {ConfigSigner} from './signing/config-signer';
 import {ConfigTransformer, Transformer} from './transformer';
 import {ConfigVersionDocumentBundle} from './types/config-version-document';
 import {ConfigVersionDocumentValidator, Validator} from './validator';
@@ -8,29 +9,55 @@ import {ConfigVersionDocumentValidator, Validator} from './validator';
  * classes together, delegating requests to the correct place.
  */
 export class Processor {
-  fileHandler = new FileHandler();
   cvdValidator = new ConfigVersionDocumentValidator();
   transformer = new ConfigTransformer();
 
   validate(filename: string) {
-    const op = new ValidateOperation({filename}, this.fileHandler, this.cvdValidator);
+    const fileHandler = FileHandler.forFile(filename);
+    const op = new ValidateOperation({filename}, fileHandler, this.cvdValidator);
     op.run();
   }
 
   generate(filename: string) {
     this.validate(filename);
-    const op = new GenerateOperation({filename}, this.fileHandler, this.transformer);
+    const fileHandler = FileHandler.forFile(filename);
+    const op = new GenerateOperation({filename}, fileHandler, this.transformer);
     op.run();
   }
 
-  build(inDir: string, outDir: string, noSig: boolean, localSig: boolean) {
-    const op = new BuildOperation({
+  async build(
+    inDir: string,
+    outDir: string,
+    noSig: boolean,
+    localSig: boolean,
+    environment: string,
+    keyId?: string
+  ) {
+    const buildOpts = {
+      environment,
       inputDirectory: inDir,
       outputDirectory: outDir,
       omitSignature: noSig,
       localSignature: localSig,
-    });
-    op.run();
+      fileExtension: '.toml',
+    };
+
+    const fileHandler = new FileHandler(buildOpts);
+    const signer = this.#selectSigner(localSig, noSig, keyId);
+    const op = new BuildOperation(buildOpts, fileHandler, this.transformer, signer);
+    await op.run();
+  }
+
+  #selectSigner(localSig: boolean, noSig: boolean, keyId?: string): ConfigSigner {
+    if (localSig) {
+      return ConfigSigner.local();
+    } else if (noSig) {
+      return ConfigSigner.noop();
+    }
+    if (keyId) {
+      return ConfigSigner.kms(keyId);
+    }
+    throw new Error('KMS Key ID not specified');
   }
 }
 
@@ -92,6 +119,7 @@ export class GenerateOperation extends Operation<VersionDocumentParams> {
 }
 
 interface BuildParams {
+  environment: string;
   inputDirectory: string;
   outputDirectory: string;
   omitSignature: boolean;
@@ -99,7 +127,37 @@ interface BuildParams {
 }
 
 export class BuildOperation extends Operation<BuildParams> {
-  run(): void {
-    throw new Error('Method not implemented.');
+  fileHandler: FileHandler;
+  transformer: Transformer;
+  configSigner: ConfigSigner;
+
+  constructor(
+    params: BuildParams,
+    fileHandler: FileHandler,
+    transformer: Transformer,
+    configSigner: ConfigSigner
+  ) {
+    super(params);
+    this.fileHandler = fileHandler;
+    this.transformer = transformer;
+    this.configSigner = configSigner;
+  }
+
+  async run(): Promise<void> {
+    const tree = this.fileHandler.buildTree();
+    const env = this.params.environment;
+    console.log('environment', env);
+    for (const dir of Object.keys(tree)) {
+      const doc = this.fileHandler.loadDocument(tree[dir], dir);
+      const output = this.transformer.transform(doc);
+      const envConfig = output[env];
+      if (!envConfig) {
+        throw new Error(`Config for environment '${env}' not found`);
+      }
+
+      const signedConfig = await this.configSigner.sign(envConfig);
+      console.log('writing:', dir);
+      this.fileHandler.writeTree(dir, signedConfig);
+    }
   }
 }

@@ -1,0 +1,19 @@
+name: Deploy config
+on:
+  push:
+    branches:
+      - main
+      - GOVUKAPP-576 # TODO remove when finished testing
+jobs:
+  deploy-integration:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+    - name: Install dependencies
+      run: npm ci
+    - name: Build config for integration
+      run: npm start build -- integration --local-signature # use local signature for now until KMS is merged
+    - name: Deploy appinfo to S3
+      run: cat ./config.out/appinfo/* # just a placeholder for a real S3 command

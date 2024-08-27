@@ -2,30 +2,27 @@
 configVersion = "0.0.1"
 
 [environments]
-bananas = { }
+production = { }
+staging = { }
+test = { }
+integration = { }
 
 [environments.default.android]
 platform = "Android"
 available = true
-minimumVersion = "1.0.0"
-recommendedVersion = "1.2.0"
+minimumVersion = "0.0.1"
+recommendedVersion = "0.0.1"
 releaseFlags = {
-  featureOne = true
-  featureTwo = false
+    onboarding = true
+    search = true
 }
 
 [environments.default.ios]
 platform = "iOS"
 available = true
-minimumVersion = "2.0.1"
-recommendedVersion = "2.2.0"
-someOtherProperty = "fish chips beans"
+minimumVersion = "0.0.1"
+recommendedVersion = "0.0.1"
 releaseFlags = {
-  featureOne = true
-  featureTwo = true
-}
-
-[environments.production.android]
-releaseFlags = {
-  featureOne = false
+    onboarding = true
+    search = true
 }

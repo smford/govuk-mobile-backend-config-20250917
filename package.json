@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Static backend configuration for GOV.UK mobile apps",
   "main": "index.ts",
+  "engines": {
+    "node": ">=11.6.0"
+  },
   "scripts": {
     "prestart": "npm run compile",
     "start": "node build/src/index.js",
@@ -40,9 +43,11 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
+    "@aws-sdk/client-kms": "^3.635.0",
     "@ltd/j-toml": "^1.38.0",
     "ajv": "^8.17.1",
     "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
     "lodash.merge": "^4.6.2",
     "semver": "^7.6.3",
     "yaml": "^2.5.0"

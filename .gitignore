@@ -45,3 +45,6 @@ build
 
 # config build output
 .config.out
+
+# keys directory for testing crypto functions
+keys

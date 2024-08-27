@@ -1,6 +1,10 @@
 import {FileHandler} from '../../src/file-handler';
 
-const fileHandler = new FileHandler();
+const fileHandler = new FileHandler({
+  inputDirectory: '',
+  outputDirectory: '',
+  fileExtension: '.yaml',
+});
 
 function randomSemver(): String {
   const version = Array(3).fill(0);
@@ -20,14 +24,24 @@ describe('FileHandler#extractVersionFromFilename', () => {
 
   it('extracts a basic version number from a filename with a yml extension', () => {
     const version = randomSemver();
+    const ymlHandler = new FileHandler({
+      inputDirectory: '',
+      outputDirectory: '',
+      fileExtension: '.yml',
+    });
     const filename = `/path/to/file/${version}.yml`;
-    const res = fileHandler.extractVersionFromFilename(filename);
+    const res = ymlHandler.extractVersionFromFilename(filename);
     expect(res).toEqual(version);
   });
 
   it('also works with toml', () => {
+    const tomlHandler = new FileHandler({
+      inputDirectory: '',
+      outputDirectory: '',
+      fileExtension: '.toml',
+    });
     const filename = '/path/to/file/7.6.1.toml';
-    const res = fileHandler.extractVersionFromFilename(filename);
+    const res = tomlHandler.extractVersionFromFilename(filename);
     expect(res).toEqual('7.6.1');
   });
 
