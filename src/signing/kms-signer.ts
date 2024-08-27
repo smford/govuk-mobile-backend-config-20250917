@@ -9,7 +9,6 @@ export class KmsSigner extends Signer<string> {
     super();
     this.keyId = keyId;
     this.kmsClient = new KMSClient();
-    console.log('create client with key id', keyId);
   }
 
   async sign(data: string): Promise<string> {

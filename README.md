@@ -79,6 +79,7 @@ Under this approach, the application will generate a new public/private key pair
 In order to use this, the you need to set the `AWS_PROFILE` environment variable in the `.env` file to `localstack`. The application will call the LocalStack KMS service to sign config. You can use the public key (retrieved as above and written to `./keys/kms_public.der`) to verify signatures locally.
 
 #### Running the verification script
+The script makes use of the very helpful [`jq`](https://jqlang.github.io/jq/) which needs to be installed first. You can `brew install jq` to do this.
 ```shell
 # format is ./verifysignature.sh <config-file-location> <public-key-file-location>
 ./verifysignature.sh ./config.out/appinfo/android ./keys/kms_public.der

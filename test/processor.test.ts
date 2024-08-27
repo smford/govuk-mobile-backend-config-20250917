@@ -9,7 +9,6 @@ import {Transformer} from '../src/transformer';
 import {MockCvdValidator, MockSigner, MockTransformer} from './utils/mocks';
 import {ConfigVersionDocumentBundle} from '../src/types/config-version-document';
 import {Signer} from '../src/signing';
-import {ConfigSigner} from '../src/signing/config-signer';
 import {Env} from '../src/types/environment';
 
 const dummyFilename = './my-files/0.1.2.yaml';
@@ -95,5 +94,25 @@ describe('BuildOperation', () => {
     );
   });
 
-  it('TODO write test', () => {});
+  it('correctly loads each of the specified files', async () => {
+    when(fileHandler.buildTree()).thenReturn({'path-1': '1.1.1.toml', 'path-2': '2.2.2.toml'});
+    when(fileHandler.loadDocument(anything())).thenReturn(ConfigVersionDocument.VALID);
+    when(transformer.transform(anything())).thenReturn({integration: {}});
+    await op.run();
+    verify(fileHandler.loadDocument('1.1.1.toml', 'path-1')).once();
+    verify(fileHandler.loadDocument('2.2.2.toml', 'path-2')).once();
+  });
+
+  it('signs the config and writes the file with the signature', async () => {
+    const fakeConfig = {ios: {cheese: 'beans'}};
+    const fakeSignedConfig = {ios: {...fakeConfig.ios, signature: 'ABCDEF'}};
+    when(fileHandler.buildTree()).thenReturn({'path-1': '1.1.1.toml', 'path-2': '2.2.2.toml'});
+    when(fileHandler.loadDocument(anything())).thenReturn(ConfigVersionDocument.VALID);
+    when(transformer.transform(anything())).thenReturn({integration: fakeConfig});
+    when(configSigner.sign(fakeConfig)).thenResolve(fakeSignedConfig);
+    await op.run();
+    verify(configSigner.sign(fakeConfig));
+    verify(fileHandler.writeTree('path-1', fakeSignedConfig));
+    verify(fileHandler.writeTree('path-2', fakeSignedConfig));
+  });
 });
