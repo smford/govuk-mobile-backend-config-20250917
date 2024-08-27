@@ -17,8 +17,8 @@ export class MockCvdValidator extends Validator<ConfigVersionDocumentBundle> {
   }
 }
 
-export class MockSigner extends Signer<string> {
-  sign(data: string): Promise<string> {
-    return Promise.resolve(`FAKE_SIGNATURE_${data}`);
+export class MockSigner<T> extends Signer<T> {
+  sign(data: T): Promise<T> {
+    return Promise.resolve(data);
   }
 }

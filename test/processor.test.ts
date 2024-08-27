@@ -1,19 +1,23 @@
 // eslint-disable-next-line n/no-unpublished-import
 import {mock, instance, resetCalls, when, verify, anything} from '@typestrong/ts-mockito';
 import {FileHandler} from '../src/file-handler';
-import {GenerateOperation, ValidateOperation} from '../src/processor';
+import {BuildOperation, GenerateOperation, ValidateOperation} from '../src/processor';
 import {Validator} from '../src/validator';
 import {ValidationResult} from '../src/validator/validation-result';
 import {ConfigVersionDocument} from './utils/version-document';
 import {Transformer} from '../src/transformer';
-import {MockCvdValidator, MockTransformer} from './utils/mocks';
+import {MockCvdValidator, MockSigner, MockTransformer} from './utils/mocks';
 import {ConfigVersionDocumentBundle} from '../src/types/config-version-document';
+import {Signer} from '../src/signing';
+import {ConfigSigner} from '../src/signing/config-signer';
+import {Env} from '../src/types/environment';
 
 const dummyFilename = './my-files/0.1.2.yaml';
 
 const fileHandler: FileHandler = mock(FileHandler);
 const cvdValidator: Validator<ConfigVersionDocumentBundle> = mock(MockCvdValidator);
 const transformer: Transformer = mock(MockTransformer);
+const configSigner: Signer<Env> = mock(MockSigner);
 
 describe('ValidateOperation', () => {
   let op: ValidateOperation;
@@ -69,4 +73,27 @@ describe('GenerateOperation', () => {
     op.run();
     verify(transformer.transform(ConfigVersionDocument.VALID)).once();
   });
+});
+
+describe('BuildOperation', () => {
+  let op: BuildOperation;
+  beforeEach(() => {
+    resetCalls(fileHandler);
+    resetCalls(transformer);
+    resetCalls(configSigner);
+    op = new BuildOperation(
+      {
+        environment: 'integration',
+        inputDirectory: '',
+        outputDirectory: '',
+        omitSignature: false,
+        localSignature: false,
+      },
+      instance(fileHandler),
+      instance(transformer),
+      instance(configSigner)
+    );
+  });
+
+  it('TODO write test', () => {});
 });
