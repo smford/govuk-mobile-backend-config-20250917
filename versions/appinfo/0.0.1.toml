@@ -4,7 +4,6 @@ configVersion = "0.0.1"
 [environments]
 production = { }
 staging = { }
-test = { }
 integration = { }
 
 [environments.default.android]

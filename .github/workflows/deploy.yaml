@@ -1,4 +1,4 @@
-name: Deploy config
+name: Deploy config to Integration
 on:
   push:
     branches:
@@ -17,10 +17,10 @@ jobs:
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v4
       with:
-        role-to-assume: "arn:aws:iam::172025368201:role/github_action_config_signing"
-        role-session-name: gha-sign-mobile-backend-config
+        role-to-assume: "arn:aws:iam::172025368201:role/github_action_mobile_backend_sign_deploy"
+        role-session-name: gha-sign-deploy-mobile-backend-config
         aws-region: eu-west-1
     - name: Build config for integration
       run: npm start build -- integration --key-id alias/config-signing-key
-    - name: Deploy appinfo to S3
-      run: cat ./config.out/appinfo/* # just a placeholder for a real S3 command
+    - name: Deploy config to S3
+      run: aws s3 sync ./config.out s3://govuk-app-remote-config-integration
