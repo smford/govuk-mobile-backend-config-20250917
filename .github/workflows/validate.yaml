@@ -11,4 +11,5 @@ jobs:
       run: npm ci
     - name: Validate documents
       run: find versions -name *.toml | xargs npm start validate
-    
+    - name: Validate static JSON
+      run: find static/* | xargs tools/json-check.sh
