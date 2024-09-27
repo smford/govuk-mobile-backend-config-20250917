@@ -22,10 +22,8 @@ jobs:
         aws-region: eu-west-1
     - name: Build config for integration
       run: npm start build -- integration --key-id alias/config-signing-key --output-directory ./config
-    - name: Generate signatures for config
-      run: find config -type f | xargs tools/create-signature.sh
-    - name: Generate signatures for static JSON
-      run: find static -type f | xargs tools/create-signature.sh
+    - name: Generate signatures
+      run: find config static -type f | xargs tools/create-signature.sh
     - name: Configure AWS credentials for S3 (Integration)
       uses: aws-actions/configure-aws-credentials@v4
       with:
@@ -34,7 +32,5 @@ jobs:
         aws-region: eu-west-1
     - name: Set bucket name
       run: export BUCKET_NAME=govuk-app-remote-config-integration
-    - name: Deploy config to S3
-      run: find config -type f | xargs tools/deploy-signed-json.sh
-    - name: Deploy static JSON to S3
-      run: find static -type f | xargs tools/deploy-signed-json.sh
+    - name: Deploy to S3
+      run: find config static -type f | xargs tools/deploy-signed-json.sh
