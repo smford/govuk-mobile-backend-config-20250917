@@ -3,6 +3,10 @@ on:
   push:
     branches:
       - main
+
+env:
+  BUCKET_NAME: govuk-app-remote-config-integration
+
 jobs:
   deploy-integration:
     runs-on: ubuntu-latest
@@ -30,7 +34,5 @@ jobs:
         role-to-assume: "arn:aws:iam::210287912431:role/github_action_mobile_backend_sign_deploy"
         role-session-name: gha-deploy-mobile-backend-config
         aws-region: eu-west-1
-    - name: Set bucket name
-      run: export BUCKET_NAME=govuk-app-remote-config-integration
     - name: Deploy to S3
       run: find config static -type f | xargs tools/deploy-signed-json.sh
