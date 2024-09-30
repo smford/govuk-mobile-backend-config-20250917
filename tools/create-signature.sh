@@ -16,7 +16,7 @@ for file in "$@"; do
     --message "fileb:///tmp/digests/$file" \
     --message-type DIGEST \
     --output text \
-    --query Signature | base64 --decode > "/tmp/signatures/$file"
+    --query Signature > "/tmp/signatures/$file"
 
     # clean up digest file
     rm "/tmp/digests/$file"
