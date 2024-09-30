@@ -2,7 +2,7 @@
 set -eu
 
 for file in "$@"; do
-    signature=$(cat "/tmp/signatures/$file" | base64)
+    signature=$(cat "/tmp/signatures/$file")
     
     # upload to S3
     aws s3 cp \
