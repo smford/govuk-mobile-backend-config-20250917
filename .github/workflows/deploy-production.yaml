@@ -1,0 +1,30 @@
+name: Deploy config to Production
+on:
+  workflow_dispatch:
+
+env:
+  BUCKET_NAME: govuk-app-remote-config-production
+
+jobs:
+  deploy-integration:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+    steps:
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin to 4.2.2
+    - name: Setup Node.js
+      uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # pin to 4.1.0
+    - name: Install dependencies
+      run: npm ci
+    - name: Configure AWS credentials for KMS (Production)
+      uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # 4.0.2
+      with:
+        role-to-assume: "arn:aws:iam::172025368201:role/github_action_mobile_backend_sign_deploy"
+        role-session-name: gha-sign-mobile-backend-config
+        aws-region: eu-west-1
+    - name: Build config for production
+      run: npm start build -- production --key-id alias/config-signing-key --output-directory ./config
+    - name: Generate signatures
+      run: find config static -type f | xargs tools/create-signature.sh
+    - name: Deploy to S3
+      run: find config static -type f | xargs tools/deploy-signed-json.sh
