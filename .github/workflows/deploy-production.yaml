@@ -6,7 +6,7 @@ env:
   BUCKET_NAME: govuk-app-remote-config-production
 
 jobs:
-  deploy-integration:
+  deploy-production:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
