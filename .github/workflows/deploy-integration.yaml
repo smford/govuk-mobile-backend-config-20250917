@@ -13,13 +13,13 @@ jobs:
     permissions:
       id-token: write
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # pin to 4.2.2
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@39370e3970a6d050c480ffad4ff0ed4d3fdee5af # pin to 4.1.0
     - name: Install dependencies
       run: npm ci
     - name: Configure AWS credentials for KMS (Production)
-      uses: aws-actions/configure-aws-credentials@v4
+      uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # 4.0.2
       with:
         role-to-assume: "arn:aws:iam::172025368201:role/github_action_mobile_backend_sign_deploy"
         role-session-name: gha-sign-mobile-backend-config
@@ -31,7 +31,7 @@ jobs:
     - name: Generate signatures
       run: find config static -type f | xargs tools/create-signature.sh
     - name: Configure AWS credentials for S3 (Integration)
-      uses: aws-actions/configure-aws-credentials@v4
+      uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # 4.0.2
       with:
         role-to-assume: "arn:aws:iam::210287912431:role/github_action_mobile_backend_sign_deploy"
         role-session-name: gha-deploy-mobile-backend-config
