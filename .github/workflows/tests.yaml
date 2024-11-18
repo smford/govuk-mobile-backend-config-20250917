@@ -1,5 +1,11 @@
 name: Run application tests
-on: [push]
+
+on:
+  push:
+    paths:
+      - src/**
+      - test/**
+
 jobs:
   build-test:
     runs-on: ubuntu-latest
