@@ -24,6 +24,8 @@ jobs:
         aws-region: eu-west-1
     - name: Build config for production
       run: npm start build -- production --key-id alias/config-signing-key --output-directory ./config
+    - name: Minify files
+      run: find config static -type f | xargs tools/minify-json.sh
     - name: Generate signatures
       run: find config static -type f | xargs tools/create-signature.sh
     - name: Deploy to S3
