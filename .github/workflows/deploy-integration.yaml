@@ -25,7 +25,7 @@ jobs:
         role-session-name: gha-sign-mobile-backend-config
         aws-region: eu-west-1
     - name: Build config for integration
-      run: npm start build -- integration --key-id alias/config-signing-key --output-directory ./config
+      run: npm start build -- integration --output-directory ./config
     - name: Minify files
       run: find config static -type f | xargs tools/minify-json.sh
     - name: Generate signatures

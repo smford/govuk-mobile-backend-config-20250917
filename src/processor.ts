@@ -1,5 +1,4 @@
 import {FileHandler} from './file-handler';
-import {ConfigSigner} from './signing/config-signer';
 import {ConfigTransformer, Transformer} from './transformer';
 import {ConfigVersionDocumentBundle} from './types/config-version-document';
 import {ConfigVersionDocumentValidator, Validator} from './validator';
@@ -25,39 +24,17 @@ export class Processor {
     op.run();
   }
 
-  async build(
-    inDir: string,
-    outDir: string,
-    noSig: boolean,
-    localSig: boolean,
-    environment: string,
-    keyId?: string
-  ) {
+  async build(inDir: string, outDir: string, environment: string) {
     const buildOpts = {
       environment,
       inputDirectory: inDir,
       outputDirectory: outDir,
-      omitSignature: noSig,
-      localSignature: localSig,
       fileExtension: '.toml',
     };
 
     const fileHandler = new FileHandler(buildOpts);
-    const signer = this.#selectSigner(localSig, noSig, keyId);
-    const op = new BuildOperation(buildOpts, fileHandler, this.transformer, signer);
+    const op = new BuildOperation(buildOpts, fileHandler, this.transformer);
     await op.run();
-  }
-
-  #selectSigner(localSig: boolean, noSig: boolean, keyId?: string): ConfigSigner {
-    if (localSig) {
-      return ConfigSigner.local();
-    } else if (noSig) {
-      return ConfigSigner.noop();
-    }
-    if (keyId) {
-      return ConfigSigner.kms(keyId);
-    }
-    throw new Error('KMS Key ID not specified');
   }
 }
 
@@ -122,25 +99,16 @@ interface BuildParams {
   environment: string;
   inputDirectory: string;
   outputDirectory: string;
-  omitSignature: boolean;
-  localSignature: boolean;
 }
 
 export class BuildOperation extends Operation<BuildParams> {
   fileHandler: FileHandler;
   transformer: Transformer;
-  configSigner: ConfigSigner;
 
-  constructor(
-    params: BuildParams,
-    fileHandler: FileHandler,
-    transformer: Transformer,
-    configSigner: ConfigSigner
-  ) {
+  constructor(params: BuildParams, fileHandler: FileHandler, transformer: Transformer) {
     super(params);
     this.fileHandler = fileHandler;
     this.transformer = transformer;
-    this.configSigner = configSigner;
   }
 
   async run(): Promise<void> {
@@ -155,9 +123,8 @@ export class BuildOperation extends Operation<BuildParams> {
         throw new Error(`Config for environment '${env}' not found`);
       }
 
-      const signedConfig = await this.configSigner.sign(envConfig);
       console.log('writing:', dir);
-      this.fileHandler.writeTree(dir, signedConfig);
+      this.fileHandler.writeTree(dir, envConfig);
     }
   }
 }

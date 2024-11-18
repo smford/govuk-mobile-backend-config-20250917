@@ -1,4 +1,4 @@
-import {Command, Option} from 'commander';
+import {Command} from 'commander';
 import {Processor} from './processor';
 import {configDotenv} from 'dotenv';
 
@@ -20,15 +20,8 @@ function generate(filename: string) {
 }
 
 async function build(environment: string, opts: GenerateOpts) {
-  const {inputDirectory, outputDirectory, omitSignature, localSignature, keyId} = opts;
-  await processor.build(
-    inputDirectory,
-    outputDirectory,
-    omitSignature,
-    localSignature,
-    environment,
-    keyId
-  );
+  const {inputDirectory, outputDirectory} = opts;
+  await processor.build(inputDirectory, outputDirectory, environment);
 }
 
 program
@@ -68,25 +61,11 @@ program
     'The directory to write the generated config to (WILL BE OVERWRITTEN)',
     './config.out'
   )
-  .addOption(
-    new Option('--omit-signature', 'skip the signing step')
-      .default(false)
-      .conflicts('local-signature')
-  )
-  .addOption(
-    new Option('--local-signature', 'generate and use a local private key')
-      .default(false)
-      .conflicts('omit-signature')
-  )
-  .addOption(new Option('--key-id <key-id>', 'KeyId for an existing KMS key').env('KMS_KEY_ID'))
   .action(build);
 
 interface GenerateOpts {
   inputDirectory: string;
   outputDirectory: string;
-  omitSignature: boolean;
-  localSignature: boolean;
-  keyId?: string;
 }
 
 program.parse();
