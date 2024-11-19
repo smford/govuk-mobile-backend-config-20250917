@@ -1,1 +1,98 @@
-{"ref":"managing-savings-investments","title":"Managing savings and investments","subtopics":[],"content":[{"url":"https://www.gov.uk/personal-tax-account","title":"Personal tax account: sign in or set up","description":"Sign into or set up a personal tax account to check and manage HMRC records, including Income Tax, change of address, Self Assessment and company car tax.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/apply-tax-free-interest-on-savings","title":"Tax on savings interest","description":"You do not pay tax on your savings interest if you're on a low income.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/savings-for-children","title":"Interest on savings for children","description":"How children's savings accounts are taxed, and the £100 limit on savings given by parents","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/get-help-savings-low-income","title":"Get help with savings if you’re on a low income (Help to Save)","description":"Get help with savings if you're on a low income (Help to Save) - how it works, what you'll get, eligibility, how it affects your benefits and how to apply online.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/sign-in-help-to-save","title":"Sign in to your Help to Save account","description":"Sign in to your Help to Save account - check your balance, grow your savings and bonus, read your messages and do other tasks","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/individual-savings-accounts","title":"Individual Savings Accounts (ISAs)","description":"Types of ISA available, the tax-free ISA allowance, withdrawing money and transferring ISAs","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/junior-individual-savings-accounts","title":"Junior Individual Savings Accounts (ISA)","description":"How to open a Junior ISA for your child - including managing and adding money to an account.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/lifetime-isa","title":"Lifetime ISA","description":"Tax free saving for your first home and later life: what is a LISA, who can apply, 25% government bonus, withdrawal charges. ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-on-dividends","title":"Tax on dividends","description":"How you're taxed on dividend payments and how your income affects the amount of tax to pay","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-uk-income-live-abroad","title":"Tax on your UK income if you live abroad","description":"Find out whether you need to pay tax on your UK income while you're living abroad - non-resident landlord scheme, tax returns, claiming relief if you’re taxed twice, personal allowance of tax-free income, form R43","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-buy-shares","title":"Tax when you buy shares","description":"How and when you'll pay Stamp Duty Reserve Tax (SDRT) or Stamp Duty when you buy shares electronically or using a stock transfer form","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-sell-shares","title":"Tax when you sell shares","description":"Working out and paying Capital Gains Tax (CGT) if you sell shares, claiming tax relief","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/trusts-taxes","title":"Trusts and taxes","description":"A trust is a way of managing assets (money, investments, land or buildings) for people - types of trust, how they are taxed, where to get help.","isStepByStep":false,"popular":false}]}
+{
+    "ref": "managing-savings-investments",
+    "title": "Managing savings and investments",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/personal-tax-account",
+            "title": "Personal tax account: sign in or set up",
+            "description": "Sign into or set up a personal tax account to check and manage HMRC records, including Income Tax, change of address, Self Assessment and company car tax.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/apply-tax-free-interest-on-savings",
+            "title": "Tax on savings interest",
+            "description": "You do not pay tax on your savings interest if you're on a low income.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/savings-for-children",
+            "title": "Interest on savings for children",
+            "description": "How children's savings accounts are taxed, and the £100 limit on savings given by parents",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-help-savings-low-income",
+            "title": "Get help with savings if you’re on a low income (Help to Save)",
+            "description": "Get help with savings if you're on a low income (Help to Save) - how it works, what you'll get, eligibility, how it affects your benefits and how to apply online.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/sign-in-help-to-save",
+            "title": "Sign in to your Help to Save account",
+            "description": "Sign in to your Help to Save account - check your balance, grow your savings and bonus, read your messages and do other tasks",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/individual-savings-accounts",
+            "title": "Individual Savings Accounts (ISAs)",
+            "description": "Types of ISA available, the tax-free ISA allowance, withdrawing money and transferring ISAs",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/junior-individual-savings-accounts",
+            "title": "Junior Individual Savings Accounts (ISA)",
+            "description": "How to open a Junior ISA for your child - including managing and adding money to an account.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/lifetime-isa",
+            "title": "Lifetime ISA",
+            "description": "Tax free saving for your first home and later life: what is a LISA, who can apply, 25% government bonus, withdrawal charges. ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-on-dividends",
+            "title": "Tax on dividends",
+            "description": "How you're taxed on dividend payments and how your income affects the amount of tax to pay",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-uk-income-live-abroad",
+            "title": "Tax on your UK income if you live abroad",
+            "description": "Find out whether you need to pay tax on your UK income while you're living abroad - non-resident landlord scheme, tax returns, claiming relief if you’re taxed twice, personal allowance of tax-free income, form R43",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-buy-shares",
+            "title": "Tax when you buy shares",
+            "description": "How and when you'll pay Stamp Duty Reserve Tax (SDRT) or Stamp Duty when you buy shares electronically or using a stock transfer form",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-sell-shares",
+            "title": "Tax when you sell shares",
+            "description": "Working out and paying Capital Gains Tax (CGT) if you sell shares, claiming tax relief",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/trusts-taxes",
+            "title": "Trusts and taxes",
+            "description": "A trust is a way of managing assets (money, investments, land or buildings) for people - types of trust, how they are taxed, where to get help.",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

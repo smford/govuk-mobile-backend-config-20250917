@@ -1,1 +1,133 @@
-{"ref":"managing-benefits","title":"Managing your benefits","subtopics":[],"content":[{"url":"https://www.gov.uk/sign-in-universal-credit","title":"Sign in to your Universal Credit account","description":"Sign in to your Universal Credit account - report a change, add a note to your journal, see your payments and do other tasks ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/sign-in-childcare-account","title":"Sign in to your childcare account","description":"If you're a parent registered for Tax-Free Childcare or free childcare if you're working, sign in to pay into your account, reconfirm your eligibility, update your details.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/sign-in-help-to-save","title":"Sign in to your Help to Save account","description":"Sign in to your Help to Save account - check your balance, grow your savings and bonus, read your messages and do other tasks","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/report-benefits-change-circumstances","title":"Benefits: report a change in your circumstances","description":"Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/how-to-have-your-benefits-paid","title":"How and when your benefits are paid","description":"Benefit payments - payment dates, bank holidays, if you do not have a bank account, Post Office card accounts.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/benefits-calculators","title":"Benefits calculators","description":"Find out what benefits you could get, how much you could get and how to claim ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/benefit-cap","title":"Benefit cap","description":"There is a limit on the total amount of benefit that most people aged 16 to under State Pension age can get - benefits affected, benefit cap amount.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/repay-manage-benefit-owed","title":"Repay and manage benefit money you owe","description":"Use this service if you need to repay debt to the Department for Work and Pensions (DWP).","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/bills-benefits","title":"Manage deductions from your benefits to pay debts and bills","description":"Debts you owe (for example court fines, rent or Council Tax) can be deducted from your benefits – sometimes called third party deductions or Fuel Direct","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/appeal-benefit-decision","title":"Appeal a benefit decision","description":"Appeal to the independent Social Security and Child Support tribunal about a benefit decision: what happens at the hearing, getting a decision, if you do not agree","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/challenge-appeal-benefit-decision","title":"Challenge and appeal a benefit decision","description":"Challenge and appeal a decision about your entitlement to benefits, for example Personal Independence Payment (PIP), Employment and Support Allowance (ESA) and Universal Credit.","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/benefit-overpayments","title":"Benefit overpayments","description":"Benefit overpayments - how they happen, your responsibilities, making repayments to DWP Debt Management, appeal an overpayment decision, Direct Earnings Attachment (DEA) ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/benefit-fraud","title":"Benefit fraud","description":"What happens if you’re suspected of benefit fraud - benefits that can and cannot be stopped if you commit fraud","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/claim-benefits-abroad","title":"Claiming benefits if you live, move or travel abroad","description":"Benefits you can claim if you go abroad and countries with social security arrangements with the UK ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/going-to-hospital-benefits","title":"Going into hospital if you get benefits","description":"What to do if you go into hospital and you get benefits ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/going-to-care-home-benefits","title":"Going into a care home if you get benefits","description":"What to do if you go into a care home and you get benefits","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/benefits-end-of-life","title":"Get benefits if you're nearing the end of life","description":"If you're terminally ill and might not live longer than 12 months, you may be able to get some benefits at a higher rate. \r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/become-appointee-for-someone-claiming-benefits","title":"Become an appointee for someone claiming benefits","description":"Apply to become an appointee for someone claiming benefits - how to apply, stop being an appointee ","isStepByStep":false,"popular":false}]}
+{
+    "ref": "managing-benefits",
+    "title": "Managing your benefits",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/sign-in-universal-credit",
+            "title": "Sign in to your Universal Credit account",
+            "description": "Sign in to your Universal Credit account - report a change, add a note to your journal, see your payments and do other tasks ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/sign-in-childcare-account",
+            "title": "Sign in to your childcare account",
+            "description": "If you're a parent registered for Tax-Free Childcare or free childcare if you're working, sign in to pay into your account, reconfirm your eligibility, update your details.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/sign-in-help-to-save",
+            "title": "Sign in to your Help to Save account",
+            "description": "Sign in to your Help to Save account - check your balance, grow your savings and bonus, read your messages and do other tasks",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/report-benefits-change-circumstances",
+            "title": "Benefits: report a change in your circumstances",
+            "description": "Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/how-to-have-your-benefits-paid",
+            "title": "How and when your benefits are paid",
+            "description": "Benefit payments - payment dates, bank holidays, if you do not have a bank account, Post Office card accounts.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/benefits-calculators",
+            "title": "Benefits calculators",
+            "description": "Find out what benefits you could get, how much you could get and how to claim ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/benefit-cap",
+            "title": "Benefit cap",
+            "description": "There is a limit on the total amount of benefit that most people aged 16 to under State Pension age can get - benefits affected, benefit cap amount.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/repay-manage-benefit-owed",
+            "title": "Repay and manage benefit money you owe",
+            "description": "Use this service if you need to repay debt to the Department for Work and Pensions (DWP).",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/bills-benefits",
+            "title": "Manage deductions from your benefits to pay debts and bills",
+            "description": "Debts you owe (for example court fines, rent or Council Tax) can be deducted from your benefits – sometimes called third party deductions or Fuel Direct",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/appeal-benefit-decision",
+            "title": "Appeal a benefit decision",
+            "description": "Appeal to the independent Social Security and Child Support tribunal about a benefit decision: what happens at the hearing, getting a decision, if you do not agree",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/challenge-appeal-benefit-decision",
+            "title": "Challenge and appeal a benefit decision",
+            "description": "Challenge and appeal a decision about your entitlement to benefits, for example Personal Independence Payment (PIP), Employment and Support Allowance (ESA) and Universal Credit.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/benefit-overpayments",
+            "title": "Benefit overpayments",
+            "description": "Benefit overpayments - how they happen, your responsibilities, making repayments to DWP Debt Management, appeal an overpayment decision, Direct Earnings Attachment (DEA) ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/benefit-fraud",
+            "title": "Benefit fraud",
+            "description": "What happens if you’re suspected of benefit fraud - benefits that can and cannot be stopped if you commit fraud",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/claim-benefits-abroad",
+            "title": "Claiming benefits if you live, move or travel abroad",
+            "description": "Benefits you can claim if you go abroad and countries with social security arrangements with the UK ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/going-to-hospital-benefits",
+            "title": "Going into hospital if you get benefits",
+            "description": "What to do if you go into hospital and you get benefits ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/going-to-care-home-benefits",
+            "title": "Going into a care home if you get benefits",
+            "description": "What to do if you go into a care home and you get benefits",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/benefits-end-of-life",
+            "title": "Get benefits if you're nearing the end of life",
+            "description": "If you're terminally ill and might not live longer than 12 months, you may be able to get some benefits at a higher rate. \r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/become-appointee-for-someone-claiming-benefits",
+            "title": "Become an appointee for someone claiming benefits",
+            "description": "Apply to become an appointee for someone claiming benefits - how to apply, stop being an appointee ",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

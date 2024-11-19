@@ -1,1 +1,33 @@
-{"ref":"ways-to-pay-business-tax","title":"Ways to pay tax","subtopics":[{"ref":"dealing-with-HMRC","title":"Dealing with HMRC"}],"content":[{"url":"https://www.gov.uk/pay-tax-debit-credit-card","title":"Pay your tax bill by debit or corporate credit card","description":"Make a debit or credit card payment with HMRC to pay your tax bill, including Self Assessment, PAYE, VAT and Corporation Tax.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pay-tax-direct-debit","title":"Pay your tax bill by Direct Debit","description":"Set up a Direct Debit payment with HMRC to pay your tax bill, including Self Assessment, PAYE, VAT and Corporation Tax","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/dormant-company","title":"Dormant companies and associations","description":"What it means to be dormant for Corporation Tax or Companies House - trading and non-trading, annual accounts, Company Tax Returns and telling HM Revenue and Customs (HMRC)","isStepByStep":false,"popular":false}]}
+{
+    "ref": "ways-to-pay-business-tax",
+    "title": "Ways to pay tax",
+    "subtopics": [
+        {
+            "ref": "dealing-with-HMRC",
+            "title": "Dealing with HMRC"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/pay-tax-debit-credit-card",
+            "title": "Pay your tax bill by debit or corporate credit card",
+            "description": "Make a debit or credit card payment with HMRC to pay your tax bill, including Self Assessment, PAYE, VAT and Corporation Tax.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pay-tax-direct-debit",
+            "title": "Pay your tax bill by Direct Debit",
+            "description": "Set up a Direct Debit payment with HMRC to pay your tax bill, including Self Assessment, PAYE, VAT and Corporation Tax",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/dormant-company",
+            "title": "Dormant companies and associations",
+            "description": "What it means to be dormant for Corporation Tax or Companies House - trading and non-trading, annual accounts, Company Tax Returns and telling HM Revenue and Customs (HMRC)",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

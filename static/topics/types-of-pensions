@@ -1,1 +1,63 @@
-{"ref":"types-of-pensions","title":"Types of pensions","subtopics":[],"content":[{"url":"https://www.gov.uk/new-state-pension","title":"The new State Pension","description":"How to get and claim your State Pension, State Pension age - for men born on or after 6 April 1951 and women born on or after 6 April 1953.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/state-pension","title":"The basic State Pension","description":"How to claim the basic State Pension and how it's calculated - for men born before 6 April 1951 and women born before 6 April 1953.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/workplace-pensions","title":"Workplace pensions","description":"Workplace pensions and automatic enrolment - how you're affected, how pensions are protected, what happens if you move job or go on maternity leave and how to opt out","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/pension-types","title":"Types of private pensions","description":"'Defined contribution' and 'defined benefit' pension schemes - what they are and what you'll get from them","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/additional-state-pension","title":"Additional State Pension","description":"Additional State Pension, also known as the State Second Pension or SERPS, is extra money on top of your basic State Pension.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/personal-pensions-your-rights","title":"Personal pensions","description":"Personal pensions, stakeholder pensions, SIPPs","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/over-80-pension","title":"Over 80 pension","description":"If you're over 80 you can get your State Pension topped up to £101.55 a week in 2024 to 2025 - for men born before 6 April 1951 and women born before 6 April 1953","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/war-widow-pension","title":"War Widow(er) Pension","description":"War Widow's or Widower's Pension if your wife, husband or civil partner died as a result of service in HM Armed Forces or during war - eligibility, how to claim, and how to claim funeral expenses\r\n","isStepByStep":false,"popular":false}]}
+{
+    "ref": "types-of-pensions",
+    "title": "Types of pensions",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/new-state-pension",
+            "title": "The new State Pension",
+            "description": "How to get and claim your State Pension, State Pension age - for men born on or after 6 April 1951 and women born on or after 6 April 1953.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/state-pension",
+            "title": "The basic State Pension",
+            "description": "How to claim the basic State Pension and how it's calculated - for men born before 6 April 1951 and women born before 6 April 1953.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/workplace-pensions",
+            "title": "Workplace pensions",
+            "description": "Workplace pensions and automatic enrolment - how you're affected, how pensions are protected, what happens if you move job or go on maternity leave and how to opt out",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/pension-types",
+            "title": "Types of private pensions",
+            "description": "'Defined contribution' and 'defined benefit' pension schemes - what they are and what you'll get from them",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/additional-state-pension",
+            "title": "Additional State Pension",
+            "description": "Additional State Pension, also known as the State Second Pension or SERPS, is extra money on top of your basic State Pension.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/personal-pensions-your-rights",
+            "title": "Personal pensions",
+            "description": "Personal pensions, stakeholder pensions, SIPPs",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/over-80-pension",
+            "title": "Over 80 pension",
+            "description": "If you're over 80 you can get your State Pension topped up to £101.55 a week in 2024 to 2025 - for men born before 6 April 1951 and women born before 6 April 1953",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/war-widow-pension",
+            "title": "War Widow(er) Pension",
+            "description": "War Widow's or Widower's Pension if your wife, husband or civil partner died as a result of service in HM Armed Forces or during war - eligibility, how to claim, and how to claim funeral expenses\r\n",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

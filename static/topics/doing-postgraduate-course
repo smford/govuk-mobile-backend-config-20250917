@@ -1,1 +1,65 @@
-{"ref":"doing-postgraduate-course","title":"Doing a postgraduate course","subtopics":[{"ref":"student-finance","title":"Student-finance for higher education"},{"ref":"looking-for-work","title":"Looking for work"}],"content":[{"url":"https://www.gov.uk/higher-education-courses-find-and-apply","title":"Higher education courses: find and apply","description":"Find and apply for a college or university course - full time, part time, post graduate, UCAS, Unistats, National Careers Service, Open University, CUKAS","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/check-university-award-degree","title":"Check if your university or college can award a degree","description":"Recognised bodies, listed bodies, recognised universities, accredited higher learning institutions, bogus degrees","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/tell-employer-or-college-about-criminal-record","title":"Check if you need to tell someone about your criminal record","description":"When to tell a potential employer, university, college or insurance company about a criminal record, when it becomes 'spent' and what shows up on a DBS check.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/find-teacher-training-courses","title":"Find teacher training courses","description":"How to find a teacher training course for primary, secondary and further eduction, including qualifications you'll need.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-for-teacher-training","title":"Apply for teacher training","description":"Use this service to apply for a teacher training course.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/funding-for-postgraduate-study","title":"Funding for postgraduate study","description":"Postgraduate funding - find grants, loans, studentships and scholarships.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/postgraduate-scholarships-international-students","title":"Postgraduate scholarships for international students","description":"Postgraduate funding for overseas students studying in the UK: types of scholarship, eligibility, how to apply","isStepByStep":false,"popular":false}]}
+{
+    "ref": "doing-postgraduate-course",
+    "title": "Doing a postgraduate course",
+    "subtopics": [
+        {
+            "ref": "student-finance",
+            "title": "Student-finance for higher education"
+        },
+        {
+            "ref": "looking-for-work",
+            "title": "Looking for work"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/higher-education-courses-find-and-apply",
+            "title": "Higher education courses: find and apply",
+            "description": "Find and apply for a college or university course - full time, part time, post graduate, UCAS, Unistats, National Careers Service, Open University, CUKAS",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/check-university-award-degree",
+            "title": "Check if your university or college can award a degree",
+            "description": "Recognised bodies, listed bodies, recognised universities, accredited higher learning institutions, bogus degrees",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/tell-employer-or-college-about-criminal-record",
+            "title": "Check if you need to tell someone about your criminal record",
+            "description": "When to tell a potential employer, university, college or insurance company about a criminal record, when it becomes 'spent' and what shows up on a DBS check.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/find-teacher-training-courses",
+            "title": "Find teacher training courses",
+            "description": "How to find a teacher training course for primary, secondary and further eduction, including qualifications you'll need.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-for-teacher-training",
+            "title": "Apply for teacher training",
+            "description": "Use this service to apply for a teacher training course.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/funding-for-postgraduate-study",
+            "title": "Funding for postgraduate study",
+            "description": "Postgraduate funding - find grants, loans, studentships and scholarships.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/postgraduate-scholarships-international-students",
+            "title": "Postgraduate scholarships for international students",
+            "description": "Postgraduate funding for overseas students studying in the UK: types of scholarship, eligibility, how to apply",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

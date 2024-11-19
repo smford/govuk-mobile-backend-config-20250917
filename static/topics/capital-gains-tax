@@ -1,1 +1,82 @@
-{"ref":"capital-gains-tax","title":"Capital Gains Tax","subtopics":[{"ref":"paying-tax-national-insurance","title":"Paying tax and National Insurance"}],"content":[{"url":"https://www.gov.uk/capital-gains-tax","title":"Capital Gains Tax: what you pay it on, rates and allowances","description":"What Capital Gains Tax (CGT) is, how to work it out, current CGT rates and how to pay.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/report-and-pay-your-capital-gains-tax","title":"Report and pay your Capital Gains Tax","description":"How to report and pay Capital Gains Tax (CGT).  ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/tax-sell-home","title":"Tax when you sell your home","description":"Relief from Capital Gains Tax (CGT) when you sell your home - Private Residence Relief, time away from your home, what to do if you have 2 homes, nominating a home, Letting Relief","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/tax-sell-property","title":"Tax when you sell property","description":"Capital Gains Tax when you sell a property that's not your home: work out your gain and pay your tax on buy-to-let, business, agricultural and inherited properties","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/tax-live-abroad-sell-uk-home","title":"Tax if you live abroad and sell your UK home ","description":"Capital Gains Tax if you're a non-resident selling a UK home: when you get a tax relief called Private Residence Relief, how to tell HMRC you've sold the property, how to work out your gain","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/guidance/capital-gains-tax-for-non-residents-uk-residential-property","title":"Tell HMRC about Capital Gains Tax on UK property or land if you’re not a UK resident","description":"When and how you need to report disposals of UK property or land to HMRC and pay Capital Gains Tax if you're not a resident in the UK.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/money-property-when-relationship-ends","title":"Money and property when you divorce or separate","description":"How to work out splitting up money, property and possessions when you divorce or dissolve a civil partnership - including mediation.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-sell-shares","title":"Tax when you sell shares","description":"Working out and paying Capital Gains Tax (CGT) if you sell shares, claiming tax relief","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/trusts-taxes","title":"Trusts and taxes","description":"A trust is a way of managing assets (money, investments, land or buildings) for people - types of trust, how they are taxed, where to get help.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/capital-gains-tax-personal-possessions","title":"Capital Gains Tax on personal possessions","description":"What personal possessions (chattels) you need to pay Capital Gains Tax (CGT) on, how to work out your gain","isStepByStep":false,"popular":false}]}
+{
+    "ref": "capital-gains-tax",
+    "title": "Capital Gains Tax",
+    "subtopics": [
+        {
+            "ref": "paying-tax-national-insurance",
+            "title": "Paying tax and National Insurance"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/capital-gains-tax",
+            "title": "Capital Gains Tax: what you pay it on, rates and allowances",
+            "description": "What Capital Gains Tax (CGT) is, how to work it out, current CGT rates and how to pay.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/report-and-pay-your-capital-gains-tax",
+            "title": "Report and pay your Capital Gains Tax",
+            "description": "How to report and pay Capital Gains Tax (CGT).  ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/tax-sell-home",
+            "title": "Tax when you sell your home",
+            "description": "Relief from Capital Gains Tax (CGT) when you sell your home - Private Residence Relief, time away from your home, what to do if you have 2 homes, nominating a home, Letting Relief",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/tax-sell-property",
+            "title": "Tax when you sell property",
+            "description": "Capital Gains Tax when you sell a property that's not your home: work out your gain and pay your tax on buy-to-let, business, agricultural and inherited properties",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/tax-live-abroad-sell-uk-home",
+            "title": "Tax if you live abroad and sell your UK home ",
+            "description": "Capital Gains Tax if you're a non-resident selling a UK home: when you get a tax relief called Private Residence Relief, how to tell HMRC you've sold the property, how to work out your gain",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/guidance/capital-gains-tax-for-non-residents-uk-residential-property",
+            "title": "Tell HMRC about Capital Gains Tax on UK property or land if you’re not a UK resident",
+            "description": "When and how you need to report disposals of UK property or land to HMRC and pay Capital Gains Tax if you're not a resident in the UK.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/money-property-when-relationship-ends",
+            "title": "Money and property when you divorce or separate",
+            "description": "How to work out splitting up money, property and possessions when you divorce or dissolve a civil partnership - including mediation.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-sell-shares",
+            "title": "Tax when you sell shares",
+            "description": "Working out and paying Capital Gains Tax (CGT) if you sell shares, claiming tax relief",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/trusts-taxes",
+            "title": "Trusts and taxes",
+            "description": "A trust is a way of managing assets (money, investments, land or buildings) for people - types of trust, how they are taxed, where to get help.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/capital-gains-tax-personal-possessions",
+            "title": "Capital Gains Tax on personal possessions",
+            "description": "What personal possessions (chattels) you need to pay Capital Gains Tax (CGT) on, how to work out your gain",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

@@ -1,1 +1,70 @@
-{"ref":"vehicle-tax","title":"Vehicle tax","subtopics":[],"content":[{"url":"https://www.gov.uk/get-vehicle-information-from-dvla","title":"Get vehicle information from DVLA","description":"Check a vehicle's details, tax and SORN status and expiry dates on the Driver Vehicle and Licensing Agency (DVLA) database - online and telephone enquiries","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/vehicle-tax-rate-tables","title":"Vehicle tax rates","description":"Tables showing the rates for vehicle tax for different types of vehicle.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/vehicle-tax","title":"Tax your vehicle","description":"Renew or tax your vehicle for the first time using a reminder letter, your log book or the green 'new keeper' slip - and how to tax if you do not have any documents","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/vehicle-tax-direct-debit","title":"Vehicle tax Direct Debit payments","description":"Set up, change or cancel your car tax Direct Debit, swap to another payment method, and what to do if you miss a Direct Debit payment","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/vehicle-tax-refund","title":"Cancel your vehicle tax and get a refund","description":"Your vehicle tax is cancelled and you get a refund for any full months of remaining tax when you tell DVLA you no longer have the vehicle or it's off the road","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/make-a-sorn","title":"Register your vehicle as off the road (SORN)","description":"Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/co2-and-vehicle-tax-tools","title":"Car fuel and CO2 emissions data","description":"Check fuel consumption, CO2 emissions and vehicle tax bands by make model and registration","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/check-vehicle-tax","title":"Check if a vehicle is taxed","description":"Check and report if a vehicle has up-to-date vehicle tax or is 'off road' (SORN)","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/contact-the-dvla","title":"Contact DVLA","description":"Find the right phone number, email or postal address to contact DVLA about driving licences, vehicle tax, medical enquiries and vehicle registration\r\n","isStepByStep":false,"popular":false}]}
+{
+    "ref": "vehicle-tax",
+    "title": "Vehicle tax",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/get-vehicle-information-from-dvla",
+            "title": "Get vehicle information from DVLA",
+            "description": "Check a vehicle's details, tax and SORN status and expiry dates on the Driver Vehicle and Licensing Agency (DVLA) database - online and telephone enquiries",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/vehicle-tax-rate-tables",
+            "title": "Vehicle tax rates",
+            "description": "Tables showing the rates for vehicle tax for different types of vehicle.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/vehicle-tax",
+            "title": "Tax your vehicle",
+            "description": "Renew or tax your vehicle for the first time using a reminder letter, your log book or the green 'new keeper' slip - and how to tax if you do not have any documents",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/vehicle-tax-direct-debit",
+            "title": "Vehicle tax Direct Debit payments",
+            "description": "Set up, change or cancel your car tax Direct Debit, swap to another payment method, and what to do if you miss a Direct Debit payment",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/vehicle-tax-refund",
+            "title": "Cancel your vehicle tax and get a refund",
+            "description": "Your vehicle tax is cancelled and you get a refund for any full months of remaining tax when you tell DVLA you no longer have the vehicle or it's off the road",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/make-a-sorn",
+            "title": "Register your vehicle as off the road (SORN)",
+            "description": "Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/co2-and-vehicle-tax-tools",
+            "title": "Car fuel and CO2 emissions data",
+            "description": "Check fuel consumption, CO2 emissions and vehicle tax bands by make model and registration",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/check-vehicle-tax",
+            "title": "Check if a vehicle is taxed",
+            "description": "Check and report if a vehicle has up-to-date vehicle tax or is 'off road' (SORN)",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/contact-the-dvla",
+            "title": "Contact DVLA",
+            "description": "Find the right phone number, email or postal address to contact DVLA about driving licences, vehicle tax, medical enquiries and vehicle registration\r\n",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

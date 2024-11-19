@@ -1,1 +1,84 @@
-{"ref":"charging-and-paying-vat","title":"Charging and paying VAT","subtopics":[],"content":[{"url":"https://www.gov.uk/sign-in-vat-account","title":"Sign in to your VAT online account","description":"Sign in and submit ESL, RCSL and EU VAT refund application, and get help with lost username, password or account activation codes\r\n\r\n","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/register-for-vat","title":"Register for VAT","description":"How to register for VAT, change your details, cancel your registration, register for VAT in EU countries.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/submit-vat-return","title":"Sending a VAT Return","description":"How to do a VAT Return, pay your VAT bill, correct errors in your VAT Return, what to do if you're late with your return or payment.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pay-vat","title":"Pay your VAT bill","description":"How to pay your VAT bill - including online by card or Direct Debit, from your bank with HMRC’s bank details, by standing order or at your bank or building society.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/how-vat-works","title":"How VAT works","description":"How VAT works, what VAT is charged on, VAT thresholds and VAT schemes. ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/charge-reclaim-record-vat","title":"Charge, reclaim and record VAT","description":"How to charge VAT, calculate VAT, VAT rates, reclaim VAT on business expenses, keep digital records.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/check-uk-vat-number","title":"Check a UK VAT number","description":"Check a UK VAT registration number is valid. Prove when you checked a number.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/vat-repayments","title":"VAT repayments","description":"VAT repayments - work out if you're due a VAT repayment using your VAT Return","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/vat-payment-deadlines","title":"VAT payment deadline calculator","description":"Work out the VAT payment deadline for your accounting period.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/vat-builders","title":"VAT for builders","description":"VAT rates for building work, including plumbers, plasterers and carpenters - new houses and flats, work for disabled people, energy saving, grant-funded heating, conversions and renovations, properties that are not homes","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/vat-charities","title":"VAT for charities","description":"VAT relief available to charities - relief, what you pay, registering, charging VAT ","isStepByStep":false,"popular":false}]}
+{
+    "ref": "charging-and-paying-vat",
+    "title": "Charging and paying VAT",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/sign-in-vat-account",
+            "title": "Sign in to your VAT online account",
+            "description": "Sign in and submit ESL, RCSL and EU VAT refund application, and get help with lost username, password or account activation codes\r\n\r\n",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/register-for-vat",
+            "title": "Register for VAT",
+            "description": "How to register for VAT, change your details, cancel your registration, register for VAT in EU countries.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/submit-vat-return",
+            "title": "Sending a VAT Return",
+            "description": "How to do a VAT Return, pay your VAT bill, correct errors in your VAT Return, what to do if you're late with your return or payment.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pay-vat",
+            "title": "Pay your VAT bill",
+            "description": "How to pay your VAT bill - including online by card or Direct Debit, from your bank with HMRC’s bank details, by standing order or at your bank or building society.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/how-vat-works",
+            "title": "How VAT works",
+            "description": "How VAT works, what VAT is charged on, VAT thresholds and VAT schemes. ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/charge-reclaim-record-vat",
+            "title": "Charge, reclaim and record VAT",
+            "description": "How to charge VAT, calculate VAT, VAT rates, reclaim VAT on business expenses, keep digital records.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/check-uk-vat-number",
+            "title": "Check a UK VAT number",
+            "description": "Check a UK VAT registration number is valid. Prove when you checked a number.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/vat-repayments",
+            "title": "VAT repayments",
+            "description": "VAT repayments - work out if you're due a VAT repayment using your VAT Return",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/vat-payment-deadlines",
+            "title": "VAT payment deadline calculator",
+            "description": "Work out the VAT payment deadline for your accounting period.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/vat-builders",
+            "title": "VAT for builders",
+            "description": "VAT rates for building work, including plumbers, plasterers and carpenters - new houses and flats, work for disabled people, energy saving, grant-funded heating, conversions and renovations, properties that are not homes",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/vat-charities",
+            "title": "VAT for charities",
+            "description": "VAT relief available to charities - relief, what you pay, registering, charging VAT ",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

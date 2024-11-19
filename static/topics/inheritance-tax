@@ -1,1 +1,84 @@
-{"ref":"inheritance-tax","title":"Inheritance Tax","subtopics":[],"content":[{"url":"https://www.gov.uk/when-someone-dies","title":"What to do when someone dies","description":"Check what to do after a death - how to register the death, notify government departments and deal with the estate.","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/inheritance-tax","title":"How Inheritance Tax works: thresholds, rules and allowances","description":"Inheritance Tax (IHT) is paid when a person's estate is worth more than £325,000 when they die - exemptions, passing on property. Sometimes known as death duties. ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/applying-for-probate","title":"Applying for probate","description":"Find out if you need to apply for probate to deal with the estate of someone who’s died. Discover how to apply for probate or letters of administration and what to do if there’s no will.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/valuing-estate-of-someone-who-died","title":"How to value an estate for Inheritance Tax and report its value","description":"Value the estate of someone who's died so that you can get probate: work out if tax is due, check how to report the estate's value, complete the correct form. \r\n\r\n","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/paying-inheritance-tax","title":"Pay your Inheritance Tax bill","description":"How to pay Inheritance Tax: get a reference number, payment methods, use the deceased's bank account, National Savings and Investments, government stock, yearly instalments.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/trusts-taxes","title":"Trusts and taxes","description":"A trust is a way of managing assets (money, investments, land or buildings) for people - types of trust, how they are taxed, where to get help.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-property-money-shares-you-inherit","title":"Tax on property, money and shares you inherit","description":"When you have to pay Income Tax, Capital Gains Tax, Stamp Duty or Inheritance Tax on money, shares or property you inherit","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/inheritance-tax-reduced-rate-calculator","title":"Inheritance Tax reduced rate calculator","description":"Work out how much to give to charity in a will to qualify for the reduced rate of Inheritance Tax.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/government/publications/rates-and-allowances-inheritance-tax-thresholds-and-interest-rates","title":"Rates and allowances: Inheritance Tax thresholds and interest rates","description":"Find the Inheritance Tax thresholds (or 'nil rate bands') from 1914, and see changes to Inheritance Tax interest rates from October 1988.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/business-relief-inheritance-tax","title":"Business Relief for Inheritance Tax","description":"How to get Inheritance Tax relief on business assets in an estate, what qualifies, giving away business property or assets","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/guidance/agricultural-relief-on-inheritance-tax","title":"Agricultural Relief for Inheritance Tax","description":" Work out whether assets in an estate qualify for Agricultural Relief and the rate at which it is due.","isStepByStep":false,"popular":false}]}
+{
+    "ref": "inheritance-tax",
+    "title": "Inheritance Tax",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/when-someone-dies",
+            "title": "What to do when someone dies",
+            "description": "Check what to do after a death - how to register the death, notify government departments and deal with the estate.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/inheritance-tax",
+            "title": "How Inheritance Tax works: thresholds, rules and allowances",
+            "description": "Inheritance Tax (IHT) is paid when a person's estate is worth more than £325,000 when they die - exemptions, passing on property. Sometimes known as death duties. ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/applying-for-probate",
+            "title": "Applying for probate",
+            "description": "Find out if you need to apply for probate to deal with the estate of someone who’s died. Discover how to apply for probate or letters of administration and what to do if there’s no will.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/valuing-estate-of-someone-who-died",
+            "title": "How to value an estate for Inheritance Tax and report its value",
+            "description": "Value the estate of someone who's died so that you can get probate: work out if tax is due, check how to report the estate's value, complete the correct form. \r\n\r\n",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/paying-inheritance-tax",
+            "title": "Pay your Inheritance Tax bill",
+            "description": "How to pay Inheritance Tax: get a reference number, payment methods, use the deceased's bank account, National Savings and Investments, government stock, yearly instalments.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/trusts-taxes",
+            "title": "Trusts and taxes",
+            "description": "A trust is a way of managing assets (money, investments, land or buildings) for people - types of trust, how they are taxed, where to get help.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-property-money-shares-you-inherit",
+            "title": "Tax on property, money and shares you inherit",
+            "description": "When you have to pay Income Tax, Capital Gains Tax, Stamp Duty or Inheritance Tax on money, shares or property you inherit",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/inheritance-tax-reduced-rate-calculator",
+            "title": "Inheritance Tax reduced rate calculator",
+            "description": "Work out how much to give to charity in a will to qualify for the reduced rate of Inheritance Tax.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/government/publications/rates-and-allowances-inheritance-tax-thresholds-and-interest-rates",
+            "title": "Rates and allowances: Inheritance Tax thresholds and interest rates",
+            "description": "Find the Inheritance Tax thresholds (or 'nil rate bands') from 1914, and see changes to Inheritance Tax interest rates from October 1988.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/business-relief-inheritance-tax",
+            "title": "Business Relief for Inheritance Tax",
+            "description": "How to get Inheritance Tax relief on business assets in an estate, what qualifies, giving away business property or assets",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/guidance/agricultural-relief-on-inheritance-tax",
+            "title": "Agricultural Relief for Inheritance Tax",
+            "description": " Work out whether assets in an estate qualify for Agricultural Relief and the rate at which it is due.",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

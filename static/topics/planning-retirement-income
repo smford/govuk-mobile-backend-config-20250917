@@ -1,1 +1,105 @@
-{"ref":"planning-retirement-income","title":"Planning your retirement income","subtopics":[],"content":[{"url":"https://www.gov.uk/plan-for-retirement","title":"Plan your retirement income","description":"Plan your retirement income - State Pension, improve your pension, pay National Insurance, check your State Pension age","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/check-state-pension","title":"Check your State Pension forecast","description":"Find out how much State Pension you could get (your forecast), when you could get it and how you could increase it","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/state-pension-age","title":"Check your State Pension age","description":"Work out your State Pension age and Pension Credit qualifying age","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/check-national-insurance-record","title":"Check your National Insurance record","description":"Find out if you've paid enough National Insurance to qualify for the full State Pension - check gaps, contributions and credits, get a National Insurance statement, call the helpline.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/voluntary-national-insurance-contributions","title":"Voluntary National Insurance","description":"National Insurance contributions you can choose to pay when you have a gap in your National Insurance record.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/state-pension-through-partner","title":"Your partner’s National Insurance record and your State Pension","description":"You may be able to increase your State Pension based on the National Insurance record","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/find-pension-contact-details","title":"Find pension contact details","description":"Find the contact details for a pension provider by using the Pension Tracing Service","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/deferring-state-pension","title":"Delay (defer) your State Pension","description":"Taking up your State Pension later - what you'll get, how to defer, extra State Pension and lump sum payment.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-on-pension","title":"Tax when you get a pension","description":"Income Tax on payments from pensions, tax-free allowances, how you pay tax on pensions.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/state-pension-if-you-retire-abroad","title":"State Pension if you retire abroad","description":"How to claim State Pension if you're overseas - payment, tax, change of circumstances - contact the International Pension Centre","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/armed-forces-pension-calculator","title":"Estimate your armed forces pension","description":"Estimate your armed forces pension - get a forecast of your armed forces pension, apply online or by post","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/early-retirement-pension","title":"Early retirement, your pension and benefits","description":"Taking early retirement can affect the pension and benefits you get","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/working-retirement-pension-age","title":"Working after State Pension age","description":"Working while taking your pension, State Pension age, retirement age, how long you can work, tax and national insurance, flexible working, discrimination","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/transferring-your-pension","title":"Transferring your pension","description":"Benefits and risks of transferring your pension pot or pension in payment within the UK or overseas","isStepByStep":false,"popular":false}]}
+{
+    "ref": "planning-retirement-income",
+    "title": "Planning your retirement income",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/plan-for-retirement",
+            "title": "Plan your retirement income",
+            "description": "Plan your retirement income - State Pension, improve your pension, pay National Insurance, check your State Pension age",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/check-state-pension",
+            "title": "Check your State Pension forecast",
+            "description": "Find out how much State Pension you could get (your forecast), when you could get it and how you could increase it",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/state-pension-age",
+            "title": "Check your State Pension age",
+            "description": "Work out your State Pension age and Pension Credit qualifying age",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/check-national-insurance-record",
+            "title": "Check your National Insurance record",
+            "description": "Find out if you've paid enough National Insurance to qualify for the full State Pension - check gaps, contributions and credits, get a National Insurance statement, call the helpline.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/voluntary-national-insurance-contributions",
+            "title": "Voluntary National Insurance",
+            "description": "National Insurance contributions you can choose to pay when you have a gap in your National Insurance record.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/state-pension-through-partner",
+            "title": "Your partner’s National Insurance record and your State Pension",
+            "description": "You may be able to increase your State Pension based on the National Insurance record",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/find-pension-contact-details",
+            "title": "Find pension contact details",
+            "description": "Find the contact details for a pension provider by using the Pension Tracing Service",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/deferring-state-pension",
+            "title": "Delay (defer) your State Pension",
+            "description": "Taking up your State Pension later - what you'll get, how to defer, extra State Pension and lump sum payment.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-on-pension",
+            "title": "Tax when you get a pension",
+            "description": "Income Tax on payments from pensions, tax-free allowances, how you pay tax on pensions.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/state-pension-if-you-retire-abroad",
+            "title": "State Pension if you retire abroad",
+            "description": "How to claim State Pension if you're overseas - payment, tax, change of circumstances - contact the International Pension Centre",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/armed-forces-pension-calculator",
+            "title": "Estimate your armed forces pension",
+            "description": "Estimate your armed forces pension - get a forecast of your armed forces pension, apply online or by post",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/early-retirement-pension",
+            "title": "Early retirement, your pension and benefits",
+            "description": "Taking early retirement can affect the pension and benefits you get",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/working-retirement-pension-age",
+            "title": "Working after State Pension age",
+            "description": "Working while taking your pension, State Pension age, retirement age, how long you can work, tax and national insurance, flexible working, discrimination",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/transferring-your-pension",
+            "title": "Transferring your pension",
+            "description": "Benefits and risks of transferring your pension pot or pension in payment within the UK or overseas",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

@@ -1,1 +1,103 @@
-{"ref":"support-housing-living-costs","title":"Support with housing and living costs","subtopics":[{"ref":"managing-benefits","title":"Managing your benefits"}],"content":[{"url":"https://www.gov.uk/check-benefits-financial-support","title":"Check benefits and financial support you can get","description":"Find out what benefits and financial support you may be able to get.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/cost-living-help-local-council","title":"Get help with the cost of living from your local council","description":"Help you can get from your council’s Household Support Fund if you cannot afford to pay for essentials like energy bills and food.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/housing-and-universal-credit","title":"Housing costs and Universal Credit","description":"Universal Credit can include help with housing costs - paying your landlord, what to do if you cannot pay your rent, other help you can get.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/housing-benefit","title":"Housing Benefit","description":"Housing Benefit or Local Housing Allowance (LHA) - rates, eligibility, claim form, calculator, appeals, 'Discretionary Housing Payment'.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/apply-housing-benefit-from-council","title":"Housing Benefit information from your council","description":"Information about Housing Benefit from your local council - apply to help pay your rent ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-council-tax-reduction","title":"Apply for Council Tax Reduction","description":"Apply to your local council for Council Tax Reduction if you're on a low income or benefits - this replaced Council Tax Benefit","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/support-for-mortgage-interest","title":"Support for Mortgage Interest (SMI)","description":"Support for Mortgage Interest (SMI) helps homeowners on certain benefits pay interest on loans or mortgages - what you'll get, eligibility and how to claim.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/the-warm-home-discount-scheme","title":"Warm Home Discount Scheme","description":"The Warm Home Discount Scheme could take £150 off your winter electricity bill - eligibility, how to get your discount, deadlines.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/cold-weather-payment","title":"Cold Weather Payment","description":"Cold Weather Payment - what you'll get, eligibility and how to find out if your area is due a payment ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/winter-fuel-payment","title":"Winter Fuel Payment","description":"Winter Fuel Payment helps older people with their heating bills - claim form, how much you get, eligibility","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/get-a-ppc","title":"Get a prescription prepayment certificate","description":"NHS Business Services Authority contact number for ordering prepaid prescriptions for 3 or 12 months at a cheaper rate than single prescriptions","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/help-nhs-costs","title":"Get help with NHS prescriptions and health costs","description":"Check if you can get free NHS prescriptions, dental treatment or eye tests - or help with other NHS costs","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/free-discount-tv-licence","title":"Get a free or discounted TV licence","description":"You can get a free TV licence if you're 75 or over and you get Pension Credit, or a discount if you're blind or in residential care - who qualifies, how to apply","isStepByStep":false,"popular":false}]}
+{
+    "ref": "support-housing-living-costs",
+    "title": "Support with housing and living costs",
+    "subtopics": [
+        {
+            "ref": "managing-benefits",
+            "title": "Managing your benefits"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/check-benefits-financial-support",
+            "title": "Check benefits and financial support you can get",
+            "description": "Find out what benefits and financial support you may be able to get.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/cost-living-help-local-council",
+            "title": "Get help with the cost of living from your local council",
+            "description": "Help you can get from your council’s Household Support Fund if you cannot afford to pay for essentials like energy bills and food.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/housing-and-universal-credit",
+            "title": "Housing costs and Universal Credit",
+            "description": "Universal Credit can include help with housing costs - paying your landlord, what to do if you cannot pay your rent, other help you can get.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/housing-benefit",
+            "title": "Housing Benefit",
+            "description": "Housing Benefit or Local Housing Allowance (LHA) - rates, eligibility, claim form, calculator, appeals, 'Discretionary Housing Payment'.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/apply-housing-benefit-from-council",
+            "title": "Housing Benefit information from your council",
+            "description": "Information about Housing Benefit from your local council - apply to help pay your rent ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-council-tax-reduction",
+            "title": "Apply for Council Tax Reduction",
+            "description": "Apply to your local council for Council Tax Reduction if you're on a low income or benefits - this replaced Council Tax Benefit",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/support-for-mortgage-interest",
+            "title": "Support for Mortgage Interest (SMI)",
+            "description": "Support for Mortgage Interest (SMI) helps homeowners on certain benefits pay interest on loans or mortgages - what you'll get, eligibility and how to claim.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/the-warm-home-discount-scheme",
+            "title": "Warm Home Discount Scheme",
+            "description": "The Warm Home Discount Scheme could take £150 off your winter electricity bill - eligibility, how to get your discount, deadlines.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/cold-weather-payment",
+            "title": "Cold Weather Payment",
+            "description": "Cold Weather Payment - what you'll get, eligibility and how to find out if your area is due a payment ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/winter-fuel-payment",
+            "title": "Winter Fuel Payment",
+            "description": "Winter Fuel Payment helps older people with their heating bills - claim form, how much you get, eligibility",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-a-ppc",
+            "title": "Get a prescription prepayment certificate",
+            "description": "NHS Business Services Authority contact number for ordering prepaid prescriptions for 3 or 12 months at a cheaper rate than single prescriptions",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/help-nhs-costs",
+            "title": "Get help with NHS prescriptions and health costs",
+            "description": "Check if you can get free NHS prescriptions, dental treatment or eye tests - or help with other NHS costs",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/free-discount-tv-licence",
+            "title": "Get a free or discounted TV licence",
+            "description": "You can get a free TV licence if you're 75 or over and you get Pension Credit, or a discount if you're blind or in residential care - who qualifies, how to apply",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

@@ -1,1 +1,126 @@
-{"ref":"learning-to-drive","title":"Learning to drive","subtopics":[],"content":[{"url":"https://www.gov.uk/learn-to-drive-a-car","title":"Learn to drive a car","description":"Learn to drive a car in the UK - get a provisional licence, take driving lessons, prepare for your theory test, book your practical test","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/apply-first-provisional-driving-licence","title":"Apply for your first provisional driving licence","description":"Apply for your first provisional driving licence from DVLA online to drive a car, motorbike or moped.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/driving-lessons-learning-to-drive","title":"Driving lessons and learning to drive","description":"Who can teach you to drive, practising with friends and family, driving lessons, insurance, using L and P plates.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/book-theory-test","title":"Book your theory test","description":"Book your official DVSA car or motorcycle theory test for £23, or other lorry, bus and Driver CPC theory tests.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/book-driving-test","title":"Book your driving test","description":"Book your official DVSA practical driving test for cars from £62, or other types of practical driving tests, including motorcycle and driving instructor tests\r\n","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/change-driving-test","title":"Change your driving test appointment","description":"Find an earlier practical driving test, move it to a later date, or change the test centre you take it at.\r\n","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/book-pupil-driving-test","title":"Book and manage driving and riding tests for your pupils","description":"Book driving and motorcycle tests for your pupils, check details, change, swap or cancel tests, and manage your availability for car driving tests.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/theory-test","title":"Theory test: cars","description":"When to book your car theory test, what to take with you, what happens at the test centre, how the multiple-choice questions and hazard perception test work, and the pass mark.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/driving-test","title":"Driving test: cars","description":"When to book your car driving test, what to take with you, what happens during the test, major and minor faults, and what happens if your test is cancelled.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/ride-motorcycle-moped","title":"Riding a motorcycle, moped or motor tricycle","description":"What you need to do to ride a motorcycle, moped or motor tricycle - tests and training, minimum ages, vehicle requirements, new licence rules","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/motorcycle-test","title":"Motorcycle and moped tests","description":"When to book your motorcycle, moped or scooter tests, what to take with you, what happens during the tests, major and minor faults, and what happens if your test is cancelled","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/motorcycle-theory-test","title":"Theory test: motorcycles and mopeds","description":"When to book your motorcycle theory test, what to take with you, how the multiple-choice questions and hazard perception test work, and the pass mark","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-for-your-full-driving-licence","title":"Getting your full driving licence","description":"How to get your full driving licence once you've passed your driving test - driving test certificate, photocard, provisional, paper licences","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/track-your-driving-licence-application","title":"Track your driving licence application","description":"Track your driving licence application if you've already made an online application","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pass-plus","title":"Pass Plus","description":"Pass Plus is a practical course to improve your driving skills - once completed you may get a discount on your car insurance","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/become-lorry-bus-driver","title":"Become a qualified heavy goods vehicle (HGV) or bus driver","description":"Qualify as an HGV or bus driver, requalify if you used to drive an HGV or bus, get a provisional licence, take the Driver Certificate of Professional Competence (CPC) tests. ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/training-hgv","title":"Find training to become a heavy goods vehicle (HGV) driver","description":"How you can train to drive a heavy goods vehicle (HGV): Skills Bootcamps, apprenticeships, vocational courses and driving schools.","isStepByStep":false,"popular":false}]}
+{
+    "ref": "learning-to-drive",
+    "title": "Learning to drive",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/learn-to-drive-a-car",
+            "title": "Learn to drive a car",
+            "description": "Learn to drive a car in the UK - get a provisional licence, take driving lessons, prepare for your theory test, book your practical test",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-first-provisional-driving-licence",
+            "title": "Apply for your first provisional driving licence",
+            "description": "Apply for your first provisional driving licence from DVLA online to drive a car, motorbike or moped.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/driving-lessons-learning-to-drive",
+            "title": "Driving lessons and learning to drive",
+            "description": "Who can teach you to drive, practising with friends and family, driving lessons, insurance, using L and P plates.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/book-theory-test",
+            "title": "Book your theory test",
+            "description": "Book your official DVSA car or motorcycle theory test for £23, or other lorry, bus and Driver CPC theory tests.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/book-driving-test",
+            "title": "Book your driving test",
+            "description": "Book your official DVSA practical driving test for cars from £62, or other types of practical driving tests, including motorcycle and driving instructor tests\r\n",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/change-driving-test",
+            "title": "Change your driving test appointment",
+            "description": "Find an earlier practical driving test, move it to a later date, or change the test centre you take it at.\r\n",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/book-pupil-driving-test",
+            "title": "Book and manage driving and riding tests for your pupils",
+            "description": "Book driving and motorcycle tests for your pupils, check details, change, swap or cancel tests, and manage your availability for car driving tests.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/theory-test",
+            "title": "Theory test: cars",
+            "description": "When to book your car theory test, what to take with you, what happens at the test centre, how the multiple-choice questions and hazard perception test work, and the pass mark.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/driving-test",
+            "title": "Driving test: cars",
+            "description": "When to book your car driving test, what to take with you, what happens during the test, major and minor faults, and what happens if your test is cancelled.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/ride-motorcycle-moped",
+            "title": "Riding a motorcycle, moped or motor tricycle",
+            "description": "What you need to do to ride a motorcycle, moped or motor tricycle - tests and training, minimum ages, vehicle requirements, new licence rules",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/motorcycle-test",
+            "title": "Motorcycle and moped tests",
+            "description": "When to book your motorcycle, moped or scooter tests, what to take with you, what happens during the tests, major and minor faults, and what happens if your test is cancelled",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/motorcycle-theory-test",
+            "title": "Theory test: motorcycles and mopeds",
+            "description": "When to book your motorcycle theory test, what to take with you, how the multiple-choice questions and hazard perception test work, and the pass mark",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-for-your-full-driving-licence",
+            "title": "Getting your full driving licence",
+            "description": "How to get your full driving licence once you've passed your driving test - driving test certificate, photocard, provisional, paper licences",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/track-your-driving-licence-application",
+            "title": "Track your driving licence application",
+            "description": "Track your driving licence application if you've already made an online application",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pass-plus",
+            "title": "Pass Plus",
+            "description": "Pass Plus is a practical course to improve your driving skills - once completed you may get a discount on your car insurance",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/become-lorry-bus-driver",
+            "title": "Become a qualified heavy goods vehicle (HGV) or bus driver",
+            "description": "Qualify as an HGV or bus driver, requalify if you used to drive an HGV or bus, get a provisional licence, take the Driver Certificate of Professional Competence (CPC) tests. ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/training-hgv",
+            "title": "Find training to become a heavy goods vehicle (HGV) driver",
+            "description": "How you can train to drive a heavy goods vehicle (HGV): Skills Bootcamps, apprenticeships, vocational courses and driving schools.",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

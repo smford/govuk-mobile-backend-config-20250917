@@ -1,1 +1,56 @@
-{"ref":"driving-medical-condition-disability","title":"Driving with a medical condition or disability","subtopics":[],"content":[{"url":"https://www.gov.uk/government/publications/blue-badge-can-i-get-one/can-i-get-a-blue-badge","title":"Who can get a Blue Badge?","description":null,"isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/apply-blue-badge","title":"Apply for or renew a Blue Badge","description":"Check if you're eligible for a Blue Badge and apply or renew","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/health-conditions-and-driving","title":"Check if a health condition affects your driving","description":"Check if you need to tell DVLA about a health or medical condition, how to report medical conditions to DVLA\r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/driving-medical-conditions","title":"Medical conditions, disabilities and driving","description":"When to tell DVLA about a medical condition or disability - what will happen to your licence, renewing or reapplying for your licence.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/get-vehicle-tax-exemption-disability","title":"Get free vehicle tax if you're a driver with a disability","description":"You may not have to pay vehicle tax if you’re a driver with a disability\r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/mobility-scooters-and-powered-wheelchairs-rules","title":"Using mobility scooters and powered wheelchairs","description":"The rules for driving mobility scooters and powered wheelchairs on roads, pavements and footpaths.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/contact-the-dvla","title":"Contact DVLA","description":"Find the right phone number, email or postal address to contact DVLA about driving licences, vehicle tax, medical enquiries and vehicle registration\r\n","isStepByStep":false,"popular":false}]}
+{
+    "ref": "driving-medical-condition-disability",
+    "title": "Driving with a medical condition or disability",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/government/publications/blue-badge-can-i-get-one/can-i-get-a-blue-badge",
+            "title": "Who can get a Blue Badge?",
+            "description": null,
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/apply-blue-badge",
+            "title": "Apply for or renew a Blue Badge",
+            "description": "Check if you're eligible for a Blue Badge and apply or renew",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/health-conditions-and-driving",
+            "title": "Check if a health condition affects your driving",
+            "description": "Check if you need to tell DVLA about a health or medical condition, how to report medical conditions to DVLA\r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/driving-medical-conditions",
+            "title": "Medical conditions, disabilities and driving",
+            "description": "When to tell DVLA about a medical condition or disability - what will happen to your licence, renewing or reapplying for your licence.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/get-vehicle-tax-exemption-disability",
+            "title": "Get free vehicle tax if you're a driver with a disability",
+            "description": "You may not have to pay vehicle tax if you’re a driver with a disability\r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/mobility-scooters-and-powered-wheelchairs-rules",
+            "title": "Using mobility scooters and powered wheelchairs",
+            "description": "The rules for driving mobility scooters and powered wheelchairs on roads, pavements and footpaths.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/contact-the-dvla",
+            "title": "Contact DVLA",
+            "description": "Find the right phone number, email or postal address to contact DVLA about driving licences, vehicle tax, medical enquiries and vehicle registration\r\n",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

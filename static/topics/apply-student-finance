@@ -1,1 +1,84 @@
-{"ref":"apply-student-finance","title":"Apply for student finance","subtopics":[],"content":[{"url":"https://www.gov.uk/get-undergraduate-student-loan","title":"Get undergraduate student finance","description":"Check if you're eligible for a student loan, find out how much you can get, how to apply and when you start repaying.","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/student-finance-calculator","title":"Student finance calculator","description":"Student finance calculator - get a quick estimate of what student loans, grants, bursaries and other funding you could get - for full-time, part-time and EU students","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/student-finance","title":"Student finance for undergraduates","description":"Student finance - student loans or student grants for tuition fees and living costs, extra help, student loan repayments.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/apply-for-student-finance","title":"Student finance: how to apply","description":"How to apply for student finance - when to apply, deadlines, proof of identity, parents, income, change an application.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-online-for-student-finance","title":"Apply online for student finance","description":"Apply online for student finance - online applications for student finance including Tuition Fee Loans, Maintenance Loans and Grants.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/student-finance-forms","title":"Student finance forms","description":"Download Student Finance England application forms and guidance notes - including forms PN1, PR1, PFF2, CYI and DSA1.\r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/support-child-or-partners-student-finance-application","title":"Support your child or partner's student finance application","description":"How to confirm your income and support a student's application for loans or grants - when to submit, which tax year, and change your details.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/student-finance-register-login","title":"Student finance login","description":"Your student finance online account - check payment dates, track an application, change details, reset password, find customer reference numbers","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/funding-for-postgraduate-study","title":"Funding for postgraduate study","description":"Postgraduate funding - find grants, loans, studentships and scholarships.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/postgraduate-scholarships-international-students","title":"Postgraduate scholarships for international students","description":"Postgraduate funding for overseas students studying in the UK: types of scholarship, eligibility, how to apply","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/contact-student-finance-england","title":"Contact Student Finance England","description":"Contact details for Student Finance England - including complaints and student finance appeals, Advanced Learner Loan.","isStepByStep":false,"popular":true}]}
+{
+    "ref": "apply-student-finance",
+    "title": "Apply for student finance",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/get-undergraduate-student-loan",
+            "title": "Get undergraduate student finance",
+            "description": "Check if you're eligible for a student loan, find out how much you can get, how to apply and when you start repaying.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/student-finance-calculator",
+            "title": "Student finance calculator",
+            "description": "Student finance calculator - get a quick estimate of what student loans, grants, bursaries and other funding you could get - for full-time, part-time and EU students",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/student-finance",
+            "title": "Student finance for undergraduates",
+            "description": "Student finance - student loans or student grants for tuition fees and living costs, extra help, student loan repayments.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/apply-for-student-finance",
+            "title": "Student finance: how to apply",
+            "description": "How to apply for student finance - when to apply, deadlines, proof of identity, parents, income, change an application.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-online-for-student-finance",
+            "title": "Apply online for student finance",
+            "description": "Apply online for student finance - online applications for student finance including Tuition Fee Loans, Maintenance Loans and Grants.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/student-finance-forms",
+            "title": "Student finance forms",
+            "description": "Download Student Finance England application forms and guidance notes - including forms PN1, PR1, PFF2, CYI and DSA1.\r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/support-child-or-partners-student-finance-application",
+            "title": "Support your child or partner's student finance application",
+            "description": "How to confirm your income and support a student's application for loans or grants - when to submit, which tax year, and change your details.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/student-finance-register-login",
+            "title": "Student finance login",
+            "description": "Your student finance online account - check payment dates, track an application, change details, reset password, find customer reference numbers",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/funding-for-postgraduate-study",
+            "title": "Funding for postgraduate study",
+            "description": "Postgraduate funding - find grants, loans, studentships and scholarships.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/postgraduate-scholarships-international-students",
+            "title": "Postgraduate scholarships for international students",
+            "description": "Postgraduate funding for overseas students studying in the UK: types of scholarship, eligibility, how to apply",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/contact-student-finance-england",
+            "title": "Contact Student Finance England",
+            "description": "Contact details for Student Finance England - including complaints and student finance appeals, Advanced Learner Loan.",
+            "isStepByStep": false,
+            "popular": true
+        }
+    ]
+}

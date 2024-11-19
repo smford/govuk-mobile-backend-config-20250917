@@ -1,1 +1,35 @@
-{"ref":"taking-time-off-sick","title":"Taking time off sick","subtopics":[],"content":[{"url":"https://www.gov.uk/taking-sick-leave","title":"Taking sick leave","description":"Fit notes (formerly sick notes), holiday during sick leave, returning to work, long-term sick, dismissals ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/statutory-sick-pay","title":"Statutory Sick Pay (SSP) ","description":"Your Statutory Sick Pay (SSP) - how much you get, eligibility, how to claim SSP, fit notes, disputes.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/employment-support-allowance","title":"Employment and Support Allowance (ESA)","description":"Employment and Support Allowance (ESA) money if you cannot work because of illness or disability - rates, eligibility, apply, assessment.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/universal-credit","title":"Universal Credit","description":"Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.","isStepByStep":false,"popular":false}]}
+{
+    "ref": "taking-time-off-sick",
+    "title": "Taking time off sick",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/taking-sick-leave",
+            "title": "Taking sick leave",
+            "description": "Fit notes (formerly sick notes), holiday during sick leave, returning to work, long-term sick, dismissals ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/statutory-sick-pay",
+            "title": "Statutory Sick Pay (SSP) ",
+            "description": "Your Statutory Sick Pay (SSP) - how much you get, eligibility, how to claim SSP, fit notes, disputes.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/employment-support-allowance",
+            "title": "Employment and Support Allowance (ESA)",
+            "description": "Employment and Support Allowance (ESA) money if you cannot work because of illness or disability - rates, eligibility, apply, assessment.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/universal-credit",
+            "title": "Universal Credit",
+            "description": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

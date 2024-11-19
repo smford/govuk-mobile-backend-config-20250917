@@ -1,1 +1,128 @@
-{"ref":"carer-for-adult","title":"Being a carer for an adult","subtopics":[{"ref":"access-to-transport-and-driving","title":"Access to transport and driving"},{"ref":"acting-on-someones-behalf","title":"Acting on someone's behalf"}],"content":[{"url":"https://www.gov.uk/check-benefits-financial-support","title":"Check benefits and financial support you can get","description":"Find out what benefits and financial support you may be able to get.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/benefits-calculators","title":"Benefits calculators","description":"Find out what benefits you could get, how much you could get and how to claim ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/report-benefits-change-circumstances","title":"Benefits: report a change in your circumstances","description":"Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/carers-allowance","title":"Carer's Allowance","description":"Apply for Carer's Allowance - money to help you look after someone who needs to be cared for. Apply online or use form DS700.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/carers-allowance-report-change","title":"Carer's Allowance: report changes","description":"Report changes in circumstances if you're claiming or have applied for Carer's Allowance - if you get a job, take a break from caring for someone, stop being a carer","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/carers-credit","title":"Carer's Credit","description":"Carer's Credit helps carers fill gaps in your National Insurance record to help you qualify for the State Pensions and other benefits - what you'll get, eligibility and how to claim","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pension-credit","title":"Pension Credit","description":"Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/dla-disability-living-allowance-benefit","title":"Disability Living Allowance (DLA) for adults","description":"Disability Living Allowance (DLA) for adults - DLA rates, eligibility, changes because of Personal Independence Payment.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pip","title":"Personal Independence Payment (PIP)","description":"Personal Independence Payment (PIP) - how and when to claim, rates, eligibility, change of circumstances, claiming due to a terminal illness.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/universal-credit","title":"Universal Credit","description":"Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/time-off-for-dependants","title":"Time off for family and dependants","description":"Your legal right to time off to care for dependants - when you can take time off, how long you get, your rights","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/carers-leave","title":"Unpaid carer’s leave","description":"Employer and employee guide to unpaid carer’s leave - who can take it, how long for, when can employers postpone or delay.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/disabled-facilities-grants","title":"Disabled Facilities Grants","description":"Disabled Facilities Grants help towards the costs of making changes to your home so you can continue to live there","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-blue-badge","title":"Apply for or renew a Blue Badge","description":"Check if you're eligible for a Blue Badge and apply or renew","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/transport-disabled","title":"Transport support services for disabled people","description":"Transport on trains, planes, cars, taxis and minicabs, buses, coaches and wheelchairs for disabled people - Freedom Pass, Disabled Person's Railcard, concessionary bus pass and Shopmobility.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/make-decisions-for-someone","title":"Make decisions on behalf of someone","description":"Help someone make decisions if they appoint you or if they lack mental capacity - includes using a power of attorney, becoming a deputy and getting a one-off Court of Protection ruling","isStepByStep":false,"popular":false}]}
+{
+    "ref": "carer-for-adult",
+    "title": "Being a carer for an adult",
+    "subtopics": [
+        {
+            "ref": "access-to-transport-and-driving",
+            "title": "Access to transport and driving"
+        },
+        {
+            "ref": "acting-on-someones-behalf",
+            "title": "Acting on someone's behalf"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/check-benefits-financial-support",
+            "title": "Check benefits and financial support you can get",
+            "description": "Find out what benefits and financial support you may be able to get.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/benefits-calculators",
+            "title": "Benefits calculators",
+            "description": "Find out what benefits you could get, how much you could get and how to claim ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/report-benefits-change-circumstances",
+            "title": "Benefits: report a change in your circumstances",
+            "description": "Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/carers-allowance",
+            "title": "Carer's Allowance",
+            "description": "Apply for Carer's Allowance - money to help you look after someone who needs to be cared for. Apply online or use form DS700.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/carers-allowance-report-change",
+            "title": "Carer's Allowance: report changes",
+            "description": "Report changes in circumstances if you're claiming or have applied for Carer's Allowance - if you get a job, take a break from caring for someone, stop being a carer",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/carers-credit",
+            "title": "Carer's Credit",
+            "description": "Carer's Credit helps carers fill gaps in your National Insurance record to help you qualify for the State Pensions and other benefits - what you'll get, eligibility and how to claim",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pension-credit",
+            "title": "Pension Credit",
+            "description": "Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/dla-disability-living-allowance-benefit",
+            "title": "Disability Living Allowance (DLA) for adults",
+            "description": "Disability Living Allowance (DLA) for adults - DLA rates, eligibility, changes because of Personal Independence Payment.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pip",
+            "title": "Personal Independence Payment (PIP)",
+            "description": "Personal Independence Payment (PIP) - how and when to claim, rates, eligibility, change of circumstances, claiming due to a terminal illness.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/universal-credit",
+            "title": "Universal Credit",
+            "description": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/time-off-for-dependants",
+            "title": "Time off for family and dependants",
+            "description": "Your legal right to time off to care for dependants - when you can take time off, how long you get, your rights",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/carers-leave",
+            "title": "Unpaid carer’s leave",
+            "description": "Employer and employee guide to unpaid carer’s leave - who can take it, how long for, when can employers postpone or delay.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/disabled-facilities-grants",
+            "title": "Disabled Facilities Grants",
+            "description": "Disabled Facilities Grants help towards the costs of making changes to your home so you can continue to live there",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-blue-badge",
+            "title": "Apply for or renew a Blue Badge",
+            "description": "Check if you're eligible for a Blue Badge and apply or renew",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/transport-disabled",
+            "title": "Transport support services for disabled people",
+            "description": "Transport on trains, planes, cars, taxis and minicabs, buses, coaches and wheelchairs for disabled people - Freedom Pass, Disabled Person's Railcard, concessionary bus pass and Shopmobility.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/make-decisions-for-someone",
+            "title": "Make decisions on behalf of someone",
+            "description": "Help someone make decisions if they appoint you or if they lack mental capacity - includes using a power of attorney, becoming a deputy and getting a one-off Court of Protection ruling",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}
