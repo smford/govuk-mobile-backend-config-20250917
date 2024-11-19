@@ -1,1 +1,117 @@
-{"ref":"expecting-baby","title":"Expecting a baby","subtopics":[{"ref":"financial-support-if-you-have-a-child","title":"Financial support if you have a child"}],"content":[{"url":"https://www.gov.uk/working-when-pregnant-your-rights","title":"Pregnant employees' rights","description":"Legal rights for pregnant employees - including paid time off for antenatal appointments, maternity leave and pay, protection against discrimination and telling the employer about the pregnancy.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/maternity-paternity-pay-leave","title":"Check if you can get Maternity or Paternity Leave or Pay, or Maternity Allowance","description":"Maternity or Paternity Leave or Pay, or Maternity Allowance for parents","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/maternity-pay-leave","title":"Maternity pay and leave","description":"Your Statutory Maternity Pay (SMP) and Leave - what you get, how to claim, maternity rights and extra help","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/maternity-allowance","title":"Maternity Allowance","description":"Maternity Allowance is paid to pregnant women who do not get Statutory Maternity Pay - rate, eligibility, apply, form MA1","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/paternity-pay-leave","title":"Paternity pay and leave","description":"Your Statutory Paternity Pay and Leave - eligibility, what you get, how to claim.  ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/shared-parental-leave-and-pay","title":"Shared Parental Leave and Pay","description":"You can start Shared Parental Leave (SPL) and Statutory Shared Parental Pay (ShPP) if you're eligible and you or your partner ends your maternity or adoption leave early - eligibility, entitlement, starting SPL and splitting blocks of leave","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/plan-shared-parental-leave-pay","title":"Plan your Shared Parental Leave and Pay","description":"Plan how and when you and your partner take Shared Parental Leave. Find out how much Statutory Shared Parental Pay you would get and when to give notice.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/statutory-sick-pay","title":"Statutory Sick Pay (SSP) ","description":"Your Statutory Sick Pay (SSP) - how much you get, eligibility, how to claim SSP, fit notes, disputes.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/employee-rights-when-on-leave","title":"Employee rights when taking maternity and other types of parental leave","description":"Guidance for employees and employers: employment rights when on maternity, paternity, adoption or parental bereavement leave - keeping in touch days, annual leave, returning to work, redundancy","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/sure-start-maternity-grant","title":"Sure Start Maternity Grant","description":"Sure Start Maternity Grant is a £500 payment to help with the costs of a new baby: what you'll get, eligibility and how to apply (claim form SF100). ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/universal-credit","title":"Universal Credit","description":"Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/healthy-start","title":"Healthy Start","description":"Healthy Start is an NHS scheme that helps women who are pregnant or have young children and are receiving benefits, buy foods such as milk or fruit. ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/register-birth","title":"Register a birth","description":"Find out how to register a birth - who can register, birth certificates","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/order-copy-birth-death-marriage-certificate","title":"Order a birth, death, marriage or civil partnership certificate","description":"Order an official birth, adoption, death, marriage or civil partnership certificate from the General Register Office (GRO) if you need a copy or want to research your family tree.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/parental-rights-responsibilities","title":"Parental rights and responsibilities","description":"Who has parental responsibility for looking after children, and how to apply for parental responsibility if you were unmarried to the mother or are not on the birth certificate","isStepByStep":false,"popular":false}]}
+{
+    "ref": "expecting-baby",
+    "title": "Expecting a baby",
+    "subtopics": [
+        {
+            "ref": "financial-support-if-you-have-a-child",
+            "title": "Financial support if you have a child"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/working-when-pregnant-your-rights",
+            "title": "Pregnant employees' rights",
+            "description": "Legal rights for pregnant employees - including paid time off for antenatal appointments, maternity leave and pay, protection against discrimination and telling the employer about the pregnancy.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/maternity-paternity-pay-leave",
+            "title": "Check if you can get Maternity or Paternity Leave or Pay, or Maternity Allowance",
+            "description": "Maternity or Paternity Leave or Pay, or Maternity Allowance for parents",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/maternity-pay-leave",
+            "title": "Maternity pay and leave",
+            "description": "Your Statutory Maternity Pay (SMP) and Leave - what you get, how to claim, maternity rights and extra help",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/maternity-allowance",
+            "title": "Maternity Allowance",
+            "description": "Maternity Allowance is paid to pregnant women who do not get Statutory Maternity Pay - rate, eligibility, apply, form MA1",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/paternity-pay-leave",
+            "title": "Paternity pay and leave",
+            "description": "Your Statutory Paternity Pay and Leave - eligibility, what you get, how to claim.  ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/shared-parental-leave-and-pay",
+            "title": "Shared Parental Leave and Pay",
+            "description": "You can start Shared Parental Leave (SPL) and Statutory Shared Parental Pay (ShPP) if you're eligible and you or your partner ends your maternity or adoption leave early - eligibility, entitlement, starting SPL and splitting blocks of leave",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/plan-shared-parental-leave-pay",
+            "title": "Plan your Shared Parental Leave and Pay",
+            "description": "Plan how and when you and your partner take Shared Parental Leave. Find out how much Statutory Shared Parental Pay you would get and when to give notice.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/statutory-sick-pay",
+            "title": "Statutory Sick Pay (SSP) ",
+            "description": "Your Statutory Sick Pay (SSP) - how much you get, eligibility, how to claim SSP, fit notes, disputes.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/employee-rights-when-on-leave",
+            "title": "Employee rights when taking maternity and other types of parental leave",
+            "description": "Guidance for employees and employers: employment rights when on maternity, paternity, adoption or parental bereavement leave - keeping in touch days, annual leave, returning to work, redundancy",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/sure-start-maternity-grant",
+            "title": "Sure Start Maternity Grant",
+            "description": "Sure Start Maternity Grant is a £500 payment to help with the costs of a new baby: what you'll get, eligibility and how to apply (claim form SF100). ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/universal-credit",
+            "title": "Universal Credit",
+            "description": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/healthy-start",
+            "title": "Healthy Start",
+            "description": "Healthy Start is an NHS scheme that helps women who are pregnant or have young children and are receiving benefits, buy foods such as milk or fruit. ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/register-birth",
+            "title": "Register a birth",
+            "description": "Find out how to register a birth - who can register, birth certificates",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/order-copy-birth-death-marriage-certificate",
+            "title": "Order a birth, death, marriage or civil partnership certificate",
+            "description": "Order an official birth, adoption, death, marriage or civil partnership certificate from the General Register Office (GRO) if you need a copy or want to research your family tree.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/parental-rights-responsibilities",
+            "title": "Parental rights and responsibilities",
+            "description": "Who has parental responsibility for looking after children, and how to apply for parental responsibility if you were unmarried to the mother or are not on the birth certificate",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

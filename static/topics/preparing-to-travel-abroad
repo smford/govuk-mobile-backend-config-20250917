@@ -1,1 +1,91 @@
-{"ref":"preparing-to-travel-abroad","title":"Preparing to travel abroad","subtopics":[],"content":[{"url":"https://www.gov.uk/foreign-travel-advice","title":"Foreign travel advice","description":"Get advice and warnings about travel abroad, including entry requirements, safety and security, health risks and legal differences.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/hand-luggage-restrictions","title":"Hand luggage restrictions at UK airports","description":"Hand luggage restrictions at UK airports - carry-on luggage, checked-in baggage, restricted items and liquids, electronic devices carried from Turkey, Lebanon, Egypt and Saudi Arabia","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/permission-take-child-abroad","title":"Get permission to take a child abroad","description":"Permission from parents and courts to take a child on holiday abroad and avoid abduction","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/drive-abroad","title":"Drive abroad","description":"How to drive abroad, whether you need an international driving permit and what to check.","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/driving-abroad","title":"Driving abroad","description":"Check if you need an international driving permit (IDP) to drive abroad on holiday and how to exchange your licence if you move abroad - including driving in the EU after Brexit.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/taking-vehicles-out-of-uk","title":"Taking a vehicle out of the UK","description":"Taking your car out of the UK - when VAT is not payable on a car you're exporting, procedures, registration and vehicle tax.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/vehicle-insurance","title":"Vehicle insurance","description":"Rules on what motor insurance you need, what to do if you're in an accident, insurance for driving abroad, penalties for uninsured vehicles and drivers.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/bringing-cash-into-uk","title":"Take cash in and out of the UK","description":"You must declare £10,000 or more in cash, or the equivalent in another currency, if you take it between Great Britain and any other country.\r\n\r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/taking-your-pet-abroad","title":"Taking your pet dog, cat or ferret abroad","description":"Take your pet dog, cat or ferret abroad: getting a pet passport or export health certificate, microchip, vaccinations and tapeworm treatments.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/marriages-civil-partnerships-abroad","title":"Getting married or registering a civil partnership abroad","description":"Find out how to get the documents you’ll need to get married or form a civil partnership overseas and how much they’ll cost. ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/claim-benefits-abroad","title":"Claiming benefits if you live, move or travel abroad","description":"Benefits you can claim if you go abroad and countries with social security arrangements with the UK ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/get-document-legalised","title":"Get your document legalised","description":"Use the online service to get a UK document legalised.","isStepByStep":false,"popular":false}]}
+{
+    "ref": "preparing-to-travel-abroad",
+    "title": "Preparing to travel abroad",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/foreign-travel-advice",
+            "title": "Foreign travel advice",
+            "description": "Get advice and warnings about travel abroad, including entry requirements, safety and security, health risks and legal differences.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/hand-luggage-restrictions",
+            "title": "Hand luggage restrictions at UK airports",
+            "description": "Hand luggage restrictions at UK airports - carry-on luggage, checked-in baggage, restricted items and liquids, electronic devices carried from Turkey, Lebanon, Egypt and Saudi Arabia",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/permission-take-child-abroad",
+            "title": "Get permission to take a child abroad",
+            "description": "Permission from parents and courts to take a child on holiday abroad and avoid abduction",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/drive-abroad",
+            "title": "Drive abroad",
+            "description": "How to drive abroad, whether you need an international driving permit and what to check.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/driving-abroad",
+            "title": "Driving abroad",
+            "description": "Check if you need an international driving permit (IDP) to drive abroad on holiday and how to exchange your licence if you move abroad - including driving in the EU after Brexit.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/taking-vehicles-out-of-uk",
+            "title": "Taking a vehicle out of the UK",
+            "description": "Taking your car out of the UK - when VAT is not payable on a car you're exporting, procedures, registration and vehicle tax.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/vehicle-insurance",
+            "title": "Vehicle insurance",
+            "description": "Rules on what motor insurance you need, what to do if you're in an accident, insurance for driving abroad, penalties for uninsured vehicles and drivers.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/bringing-cash-into-uk",
+            "title": "Take cash in and out of the UK",
+            "description": "You must declare £10,000 or more in cash, or the equivalent in another currency, if you take it between Great Britain and any other country.\r\n\r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/taking-your-pet-abroad",
+            "title": "Taking your pet dog, cat or ferret abroad",
+            "description": "Take your pet dog, cat or ferret abroad: getting a pet passport or export health certificate, microchip, vaccinations and tapeworm treatments.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/marriages-civil-partnerships-abroad",
+            "title": "Getting married or registering a civil partnership abroad",
+            "description": "Find out how to get the documents you’ll need to get married or form a civil partnership overseas and how much they’ll cost. ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/claim-benefits-abroad",
+            "title": "Claiming benefits if you live, move or travel abroad",
+            "description": "Benefits you can claim if you go abroad and countries with social security arrangements with the UK ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-document-legalised",
+            "title": "Get your document legalised",
+            "description": "Use the online service to get a UK document legalised.",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

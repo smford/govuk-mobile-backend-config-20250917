@@ -1,1 +1,7 @@
-{"ref":"travel","title":"Travel","description":"Passports, travel advice","subtopics":[],"content":[]}
+{
+    "ref": "travel",
+    "title": "Travel",
+    "description": "Passports, travel advice",
+    "subtopics": [],
+    "content": []
+}

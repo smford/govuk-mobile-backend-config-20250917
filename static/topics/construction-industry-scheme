@@ -1,1 +1,33 @@
-{"ref":"construction-industry-scheme","title":"Construction Industry Scheme (CIS)","subtopics":[{"ref":"dealing-with-HMRC","title":"Dealing with HMRC"}],"content":[{"url":"https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account","title":"Sign in to your HMRC business tax account","description":"If you manage one or more business taxes online, sign in to your business tax account to view your tax position and manage all your taxes from one place.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/what-is-the-construction-industry-scheme","title":"Construction Industry Scheme (CIS)","description":"What the Construction Industry Scheme (CIS) is, work covered by the scheme and find out whether you should register as a contractor or subcontractor.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/use-construction-industry-scheme-online","title":"Sign in to the Construction Industry Scheme (CIS) online service","description":"Sign in to the Construction Industry Scheme online service to file your contractor monthly returns or verify a subcontractor.","isStepByStep":false,"popular":false}]}
+{
+    "ref": "construction-industry-scheme",
+    "title": "Construction Industry Scheme (CIS)",
+    "subtopics": [
+        {
+            "ref": "dealing-with-HMRC",
+            "title": "Dealing with HMRC"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account",
+            "title": "Sign in to your HMRC business tax account",
+            "description": "If you manage one or more business taxes online, sign in to your business tax account to view your tax position and manage all your taxes from one place.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/what-is-the-construction-industry-scheme",
+            "title": "Construction Industry Scheme (CIS)",
+            "description": "What the Construction Industry Scheme (CIS) is, work covered by the scheme and find out whether you should register as a contractor or subcontractor.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/use-construction-industry-scheme-online",
+            "title": "Sign in to the Construction Industry Scheme (CIS) online service",
+            "description": "Sign in to the Construction Industry Scheme online service to file your contractor monthly returns or verify a subcontractor.",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

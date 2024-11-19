@@ -1,1 +1,49 @@
-{"ref":"grievances-disciplinary-dismissal","title":"Grievances, disciplinary action and being dismissed","subtopics":[],"content":[{"url":"https://www.gov.uk/dismissal","title":"Dismissal: your rights","description":"Dismissal is when your employer ends your employment - reasons you can be dismissed, unfair and constructive dismissal and what to do if you're dismissed","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/solve-workplace-dispute","title":"Solve a workplace dispute","description":"Grievances and disciplinary action at work can be solved by informal discussions, formal procedures, mediation, conciliation or arbitration.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/raise-grievance-at-work","title":"Raise a grievance at work","description":"Employees can raise a grievance at work when an informal solution is not possible - grievance procedure, mediation, meetings, appeals","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/disciplinary-procedures-and-action-at-work","title":"Disciplinary procedures and action against you at work","description":"Disciplinary procedures your employer has at work - disciplinary hearings, appeals, suspension, dismissal and help and advice","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/employment-tribunals","title":"Make a claim to an employment tribunal","description":"How to take an employer to a tribunal: the hearing, what happens if you lose your case, how to appeal.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/handing-in-your-notice","title":"Handing in your notice","description":"What an employee needs to do when they resign from a job: how to give notice, notice period, payment arrangements, gardening leave, restrictive covenants","isStepByStep":false,"popular":false}]}
+{
+    "ref": "grievances-disciplinary-dismissal",
+    "title": "Grievances, disciplinary action and being dismissed",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/dismissal",
+            "title": "Dismissal: your rights",
+            "description": "Dismissal is when your employer ends your employment - reasons you can be dismissed, unfair and constructive dismissal and what to do if you're dismissed",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/solve-workplace-dispute",
+            "title": "Solve a workplace dispute",
+            "description": "Grievances and disciplinary action at work can be solved by informal discussions, formal procedures, mediation, conciliation or arbitration.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/raise-grievance-at-work",
+            "title": "Raise a grievance at work",
+            "description": "Employees can raise a grievance at work when an informal solution is not possible - grievance procedure, mediation, meetings, appeals",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/disciplinary-procedures-and-action-at-work",
+            "title": "Disciplinary procedures and action against you at work",
+            "description": "Disciplinary procedures your employer has at work - disciplinary hearings, appeals, suspension, dismissal and help and advice",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/employment-tribunals",
+            "title": "Make a claim to an employment tribunal",
+            "description": "How to take an employer to a tribunal: the hearing, what happens if you lose your case, how to appeal.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/handing-in-your-notice",
+            "title": "Handing in your notice",
+            "description": "What an employee needs to do when they resign from a job: how to give notice, notice period, payment arrangements, gardening leave, restrictive covenants",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

@@ -1,1 +1,31 @@
-{"ref":"financial-support-if-you-have-a-child","title":"Financial support if you have a child","subtopics":[{"ref":"child-benefit","title":"Child Benefit"},{"ref":"tax-free-childcare","title":"Tax-free childcare"},{"ref":"universal-credit","title":"Universal Credit"},{"ref":"tax-credits","title":"Tax Credits"},{"ref":"support-if-youre-studying","title":"Support if you're studying"},{"ref":"saving-accounts-children","title":"Saving accounts for children"}],"content":[]}
+{
+    "ref": "financial-support-if-you-have-a-child",
+    "title": "Financial support if you have a child",
+    "subtopics": [
+        {
+            "ref": "child-benefit",
+            "title": "Child Benefit"
+        },
+        {
+            "ref": "tax-free-childcare",
+            "title": "Tax-free childcare"
+        },
+        {
+            "ref": "universal-credit",
+            "title": "Universal Credit"
+        },
+        {
+            "ref": "tax-credits",
+            "title": "Tax Credits"
+        },
+        {
+            "ref": "support-if-youre-studying",
+            "title": "Support if you're studying"
+        },
+        {
+            "ref": "saving-accounts-children",
+            "title": "Saving accounts for children"
+        }
+    ],
+    "content": []
+}

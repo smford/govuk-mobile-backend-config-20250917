@@ -1,1 +1,112 @@
-{"ref":"dealing-with-debt","title":"Dealing with debt and money issues","subtopics":[],"content":[{"url":"https://www.gov.uk/check-benefits-financial-support","title":"Check benefits and financial support you can get","description":"Find out what benefits and financial support you may be able to get.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/benefits-calculators","title":"Benefits calculators","description":"Find out what benefits you could get, how much you could get and how to claim ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/cost-living-help-local-council","title":"Get help with the cost of living from your local council","description":"Help you can get from your council’s Household Support Fund if you cannot afford to pay for essentials like energy bills and food.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/pay-off-debts","title":"Check how you can deal with your debts","description":"Find out what help you can get to help you manage your debts.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/options-for-dealing-with-your-debts","title":"Options for dealing with your debts","description":"Alternatives to bankruptcy and the different types of agreements you can make with your creditors.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/debt-advice","title":"Get free debt advice","description":"Get free, confidential and independent advice on dealing with debt problems across the UK -  telephone, fax, opening hours, website","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/respond-to-court-claim-for-money","title":"Respond to a court claim for money","description":"What happens if someone makes a money claim against you, saying you owe them money, and how you can respond or defend yourself","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/county-court-judgments-ccj-for-debt","title":"County court judgments for debt","description":"What to do if you receive a county court judgment (CCJ) - how to get it set aside or change what you pay, what happens if you do not pay, how to search the register. Includes information from the withdrawn EX320 and EX326 guidance.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/your-rights-bailiffs","title":"Bailiff powers when they visit your home","description":"Your rights when bailiffs visit your home - entering your home, debts, complaining about private bailiffs, court bailiffs, civilian enforcement officers, certificated enforcement agents. Includes information from the withdrawn EX345 guidance.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/difficulties-paying-hmrc","title":"If you cannot pay your tax bill on time","description":"Contact HM Revenue and Customs if you cannot pay your tax bill - get more time to pay or pay in instalments.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/council-tax-arrears","title":"Pay Council Tax arrears","description":"How your local council can help if you're struggling to pay Council Tax - and what action they can take to get any money you owe from you","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/repay-manage-benefit-owed","title":"Repay and manage benefit money you owe","description":"Use this service if you need to repay debt to the Department for Work and Pensions (DWP).","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/becoming-bankrupt","title":"Becoming bankrupt","description":"How to apply for bankruptcy. What to do if you’ve been made bankrupt: if you’re at risk of violence, how long it lasts, bankruptcy restrictions, what happens to your home and possessions when you're bankrupt.\r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-for-bankruptcy","title":"Apply for bankruptcy","description":"How to apply for bankruptcy online: how much it costs, get help paying the fee, what you’ll need","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/government/organisations/single-financial-guidance-body","title":"Money and Pensions Service","description":"The Money and Pensions Service (MaPS) replaces the 3 existing providers of government-sponsored financial guidance – the Money Advice Service, the Pensions Advisory Service and Pension Wise. It provides free and impartial debt advice, money guidance and pension guidance to members of the public. The organisation was set up as the Single Financial Guidance Body (SFGB) on 1 October 2018. It was renamed the Money and Pensions Service (MaPS) in April 2019. MaPS is an executive non-departmental public body, sponsored by the Department for Work and Pensions .","isStepByStep":false,"popular":false}]}
+{
+    "ref": "dealing-with-debt",
+    "title": "Dealing with debt and money issues",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/check-benefits-financial-support",
+            "title": "Check benefits and financial support you can get",
+            "description": "Find out what benefits and financial support you may be able to get.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/benefits-calculators",
+            "title": "Benefits calculators",
+            "description": "Find out what benefits you could get, how much you could get and how to claim ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/cost-living-help-local-council",
+            "title": "Get help with the cost of living from your local council",
+            "description": "Help you can get from your council’s Household Support Fund if you cannot afford to pay for essentials like energy bills and food.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/pay-off-debts",
+            "title": "Check how you can deal with your debts",
+            "description": "Find out what help you can get to help you manage your debts.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/options-for-dealing-with-your-debts",
+            "title": "Options for dealing with your debts",
+            "description": "Alternatives to bankruptcy and the different types of agreements you can make with your creditors.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/debt-advice",
+            "title": "Get free debt advice",
+            "description": "Get free, confidential and independent advice on dealing with debt problems across the UK -  telephone, fax, opening hours, website",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/respond-to-court-claim-for-money",
+            "title": "Respond to a court claim for money",
+            "description": "What happens if someone makes a money claim against you, saying you owe them money, and how you can respond or defend yourself",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/county-court-judgments-ccj-for-debt",
+            "title": "County court judgments for debt",
+            "description": "What to do if you receive a county court judgment (CCJ) - how to get it set aside or change what you pay, what happens if you do not pay, how to search the register. Includes information from the withdrawn EX320 and EX326 guidance.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/your-rights-bailiffs",
+            "title": "Bailiff powers when they visit your home",
+            "description": "Your rights when bailiffs visit your home - entering your home, debts, complaining about private bailiffs, court bailiffs, civilian enforcement officers, certificated enforcement agents. Includes information from the withdrawn EX345 guidance.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/difficulties-paying-hmrc",
+            "title": "If you cannot pay your tax bill on time",
+            "description": "Contact HM Revenue and Customs if you cannot pay your tax bill - get more time to pay or pay in instalments.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/council-tax-arrears",
+            "title": "Pay Council Tax arrears",
+            "description": "How your local council can help if you're struggling to pay Council Tax - and what action they can take to get any money you owe from you",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/repay-manage-benefit-owed",
+            "title": "Repay and manage benefit money you owe",
+            "description": "Use this service if you need to repay debt to the Department for Work and Pensions (DWP).",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/becoming-bankrupt",
+            "title": "Becoming bankrupt",
+            "description": "How to apply for bankruptcy. What to do if you’ve been made bankrupt: if you’re at risk of violence, how long it lasts, bankruptcy restrictions, what happens to your home and possessions when you're bankrupt.\r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-for-bankruptcy",
+            "title": "Apply for bankruptcy",
+            "description": "How to apply for bankruptcy online: how much it costs, get help paying the fee, what you’ll need",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/government/organisations/single-financial-guidance-body",
+            "title": "Money and Pensions Service",
+            "description": "The Money and Pensions Service (MaPS) replaces the 3 existing providers of government-sponsored financial guidance – the Money Advice Service, the Pensions Advisory Service and Pension Wise. It provides free and impartial debt advice, money guidance and pension guidance to members of the public. The organisation was set up as the Single Financial Guidance Body (SFGB) on 1 October 2018. It was renamed the Money and Pensions Service (MaPS) in April 2019. MaPS is an executive non-departmental public body, sponsored by the Department for Work and Pensions .",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

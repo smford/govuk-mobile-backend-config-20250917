@@ -1,1 +1,96 @@
-{"ref":"leaving-care-young-adult","title":"Leaving care as a young adult","subtopics":[{"ref":"studying-training","title":"Studying and training"}],"content":[{"url":"https://www.gov.uk/leaving-foster-or-local-authority-care","title":"Leaving foster or local authority care","description":"Leaving foster or local council care - support from your council, review meetings and financial help","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/1619-bursary-fund","title":"16 to 19 Bursary Fund","description":"Bursaries of up to £1,200 for students in further education, training or unpaid apprenticeships - what’s available, eligibility and how to apply","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/extra-money-pay-university","title":"Extra money to pay for university","description":"Bursaries and scholarships from universities or colleges including hardship funds.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/get-undergraduate-student-loan","title":"Get undergraduate student finance","description":"Check if you're eligible for a student loan, find out how much you can get, how to apply and when you start repaying.","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/find-a-job","title":"Find a job","description":"Search and apply for jobs in Great Britain using ‘Find a job’. ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/work-health-programme","title":"Work and Health Programme","description":"The Work and Health Programme helps you find and keep a job if you're out of work - eligibility, how to claim.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/become-apprentice","title":"Become an apprentice","description":"Becoming an apprentice - what to expect, apprenticeship levels, pay and training, making an application, complaining about an apprenticeship.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/jobseekers-allowance","title":"Jobseeker's Allowance (JSA)","description":"Jobseeker's Allowance (JSA) is an unemployment benefit you can claim while looking for work - how to apply online, New Style Jobseeker's Allowance (JSA), eligibility, rates, rapid reclaim, JSA interview, when payment can be stopped","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/universal-credit","title":"Universal Credit","description":"Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/moving-from-benefits-to-work","title":"Help with moving from benefits to work","description":"Find out about help you can get moving from benefits to work - work trials, programmes and clubs, New Enterprise Allowance, help with drug or alcohol problems, carer support","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/housing-and-universal-credit","title":"Housing costs and Universal Credit","description":"Universal Credit can include help with housing costs - paying your landlord, what to do if you cannot pay your rent, other help you can get.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/find-local-council","title":"Find your local council","description":"Find your local authority in England, Wales, Scotland and Northern Ireland","isStepByStep":false,"popular":false}]}
+{
+    "ref": "leaving-care-young-adult",
+    "title": "Leaving care as a young adult",
+    "subtopics": [
+        {
+            "ref": "studying-training",
+            "title": "Studying and training"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/leaving-foster-or-local-authority-care",
+            "title": "Leaving foster or local authority care",
+            "description": "Leaving foster or local council care - support from your council, review meetings and financial help",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/1619-bursary-fund",
+            "title": "16 to 19 Bursary Fund",
+            "description": "Bursaries of up to £1,200 for students in further education, training or unpaid apprenticeships - what’s available, eligibility and how to apply",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/extra-money-pay-university",
+            "title": "Extra money to pay for university",
+            "description": "Bursaries and scholarships from universities or colleges including hardship funds.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-undergraduate-student-loan",
+            "title": "Get undergraduate student finance",
+            "description": "Check if you're eligible for a student loan, find out how much you can get, how to apply and when you start repaying.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/find-a-job",
+            "title": "Find a job",
+            "description": "Search and apply for jobs in Great Britain using ‘Find a job’. ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/work-health-programme",
+            "title": "Work and Health Programme",
+            "description": "The Work and Health Programme helps you find and keep a job if you're out of work - eligibility, how to claim.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/become-apprentice",
+            "title": "Become an apprentice",
+            "description": "Becoming an apprentice - what to expect, apprenticeship levels, pay and training, making an application, complaining about an apprenticeship.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/jobseekers-allowance",
+            "title": "Jobseeker's Allowance (JSA)",
+            "description": "Jobseeker's Allowance (JSA) is an unemployment benefit you can claim while looking for work - how to apply online, New Style Jobseeker's Allowance (JSA), eligibility, rates, rapid reclaim, JSA interview, when payment can be stopped",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/universal-credit",
+            "title": "Universal Credit",
+            "description": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/moving-from-benefits-to-work",
+            "title": "Help with moving from benefits to work",
+            "description": "Find out about help you can get moving from benefits to work - work trials, programmes and clubs, New Enterprise Allowance, help with drug or alcohol problems, carer support",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/housing-and-universal-credit",
+            "title": "Housing costs and Universal Credit",
+            "description": "Universal Credit can include help with housing costs - paying your landlord, what to do if you cannot pay your rent, other help you can get.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/find-local-council",
+            "title": "Find your local council",
+            "description": "Find your local authority in England, Wales, Scotland and Northern Ireland",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

@@ -1,1 +1,77 @@
-{"ref":"losing-right-to-drive","title":"Losing the right to drive","subtopics":[],"content":[{"url":"https://www.gov.uk/health-conditions-and-driving","title":"Check if a health condition affects your driving","description":"Check if you need to tell DVLA about a health or medical condition, how to report medical conditions to DVLA\r\n","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/driving-medical-conditions","title":"Medical conditions, disabilities and driving","description":"When to tell DVLA about a medical condition or disability - what will happen to your licence, renewing or reapplying for your licence.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/driving-disqualifications","title":"Driving disqualifications","description":"When you can be banned from driving, check when your driving ban ends, reduce your disqualification period, disqualified until you've passed your test, drink-driving offences","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/drink-driving-penalties","title":"Drink-driving penalties","description":"You could be imprisoned, banned from driving and face a fine if you're found guilty of drink-driving","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/drink-drive-course","title":"Drink-drive rehabilitation courses","description":"When you can take a drink-drive rehabilitation course to reduce your driving ban: what it costs, and what happens when you’ve done it","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/drug-driving-law","title":"Drugs and driving: the law","description":"It's illegal to drive if you're unfit to do so because you're on legal or illegal drugs, or you have certain levels of drugs or medicine in your blood","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/make-a-plea","title":"Make a plea for a traffic offence","description":"Plead guilty or not guilty to a traffic offence ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/courts","title":"Criminal courts","description":"The different types of court - magistrates' court, Crown Court and youth court - the crimes they deal with and the level of sentences they can give.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/guidance/what-to-expect-coming-to-a-court-or-tribunal","title":"What to expect coming to a court or tribunal","description":"Find out what you should bring for a court or tribunal hearing, how you can get support, and what to expect on the day","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/book-national-driver-offender-retraining-course","title":"Book a National Driver Offender Retraining Scheme course","description":"Book a National Driver Offender Retraining Scheme course","isStepByStep":false,"popular":false}]}
+{
+    "ref": "losing-right-to-drive",
+    "title": "Losing the right to drive",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/health-conditions-and-driving",
+            "title": "Check if a health condition affects your driving",
+            "description": "Check if you need to tell DVLA about a health or medical condition, how to report medical conditions to DVLA\r\n",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/driving-medical-conditions",
+            "title": "Medical conditions, disabilities and driving",
+            "description": "When to tell DVLA about a medical condition or disability - what will happen to your licence, renewing or reapplying for your licence.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/driving-disqualifications",
+            "title": "Driving disqualifications",
+            "description": "When you can be banned from driving, check when your driving ban ends, reduce your disqualification period, disqualified until you've passed your test, drink-driving offences",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/drink-driving-penalties",
+            "title": "Drink-driving penalties",
+            "description": "You could be imprisoned, banned from driving and face a fine if you're found guilty of drink-driving",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/drink-drive-course",
+            "title": "Drink-drive rehabilitation courses",
+            "description": "When you can take a drink-drive rehabilitation course to reduce your driving ban: what it costs, and what happens when you’ve done it",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/drug-driving-law",
+            "title": "Drugs and driving: the law",
+            "description": "It's illegal to drive if you're unfit to do so because you're on legal or illegal drugs, or you have certain levels of drugs or medicine in your blood",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/make-a-plea",
+            "title": "Make a plea for a traffic offence",
+            "description": "Plead guilty or not guilty to a traffic offence ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/courts",
+            "title": "Criminal courts",
+            "description": "The different types of court - magistrates' court, Crown Court and youth court - the crimes they deal with and the level of sentences they can give.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/guidance/what-to-expect-coming-to-a-court-or-tribunal",
+            "title": "What to expect coming to a court or tribunal",
+            "description": "Find out what you should bring for a court or tribunal hearing, how you can get support, and what to expect on the day",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/book-national-driver-offender-retraining-course",
+            "title": "Book a National Driver Offender Retraining Scheme course",
+            "description": "Book a National Driver Offender Retraining Scheme course",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

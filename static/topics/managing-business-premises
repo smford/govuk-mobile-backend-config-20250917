@@ -1,1 +1,77 @@
-{"ref":"managing-business-premises","title":"Managing business premises","subtopics":[],"content":[{"url":"https://www.gov.uk/introduction-to-business-rates","title":"Business rates","description":"Business rates are charged on most non-domestic properties - who has to pay, how your rates are calculated, getting a revaluation, what to do if your premises change.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/find-business-rates","title":"Find a business rates valuation","description":"How to find the rateable value of a business property: compare it with other properties and challenge your property’s rateable value if it’s in Wales. \r\n","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/calculate-your-business-rates","title":"Estimate your business rates","description":"Estimate your business rates by multiplying the rateable value of your business property by a multiplier value set by the government.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/business-rates-valuation-account","title":"Business rates valuation account: sign in or set up","description":"Check the rateable value and report changes to your property in England: challenge your property’s rateable value if you disagree with it. \r\n\r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/run-business-from-home","title":"Running a business from home","description":"Running a business from home - insurance, business rates, expenses, tax allowances","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/find-energy-certificate","title":"Find an energy certificate","description":"Find a property's energy certificate including an energy performance certificate (EPC), display energy certificate (DEC) or air conditioning inspection certificate. ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/get-new-energy-certificate","title":"Get a new energy certificate","description":"Get a new energy certificate for your property: energy performance certificate (EPC), display energy certificate (DEC) or air conditioning inspection certificate. Find an assessor to get a certificate.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/find-licences","title":"Find a licence","description":"Find licences, permits or certifications you may need for yourself or your business.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/send-rent-lease-details","title":"Send your rent, lease or ownership details to the Valuation Office Agency","description":"Use this service to send your lease and rent details to the Valuation Office Agency (VOA) if you've been contacted by them","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/dispose-business-commercial-waste","title":"Dispose of business or commercial waste","description":"Business waste management in England - your duty of care, waste collection, licences and waste transfer notes","isStepByStep":false,"popular":false}]}
+{
+    "ref": "managing-business-premises",
+    "title": "Managing business premises",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/introduction-to-business-rates",
+            "title": "Business rates",
+            "description": "Business rates are charged on most non-domestic properties - who has to pay, how your rates are calculated, getting a revaluation, what to do if your premises change.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/find-business-rates",
+            "title": "Find a business rates valuation",
+            "description": "How to find the rateable value of a business property: compare it with other properties and challenge your property’s rateable value if it’s in Wales. \r\n",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/calculate-your-business-rates",
+            "title": "Estimate your business rates",
+            "description": "Estimate your business rates by multiplying the rateable value of your business property by a multiplier value set by the government.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/business-rates-valuation-account",
+            "title": "Business rates valuation account: sign in or set up",
+            "description": "Check the rateable value and report changes to your property in England: challenge your property’s rateable value if you disagree with it. \r\n\r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/run-business-from-home",
+            "title": "Running a business from home",
+            "description": "Running a business from home - insurance, business rates, expenses, tax allowances",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/find-energy-certificate",
+            "title": "Find an energy certificate",
+            "description": "Find a property's energy certificate including an energy performance certificate (EPC), display energy certificate (DEC) or air conditioning inspection certificate. ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/get-new-energy-certificate",
+            "title": "Get a new energy certificate",
+            "description": "Get a new energy certificate for your property: energy performance certificate (EPC), display energy certificate (DEC) or air conditioning inspection certificate. Find an assessor to get a certificate.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/find-licences",
+            "title": "Find a licence",
+            "description": "Find licences, permits or certifications you may need for yourself or your business.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/send-rent-lease-details",
+            "title": "Send your rent, lease or ownership details to the Valuation Office Agency",
+            "description": "Use this service to send your lease and rent details to the Valuation Office Agency (VOA) if you've been contacted by them",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/dispose-business-commercial-waste",
+            "title": "Dispose of business or commercial waste",
+            "description": "Business waste management in England - your duty of care, waste collection, licences and waste transfer notes",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

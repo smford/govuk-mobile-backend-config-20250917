@@ -1,1 +1,97 @@
-{"ref":"support-caring-for-someone","title":"Support if you're caring for someone","subtopics":[{"ref":"managing-benefits","title":"Managing your benefits"},{"ref":"carer-for-adult","title":"Being a carer for an adult"},{"ref":"acting-on-someones-behalf","title":"Acting on someone's behalf"}],"content":[{"url":"https://www.gov.uk/check-benefits-financial-support","title":"Check benefits and financial support you can get","description":"Find out what benefits and financial support you may be able to get.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/benefits-calculators","title":"Benefits calculators","description":"Find out what benefits you could get, how much you could get and how to claim ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/report-benefits-change-circumstances","title":"Benefits: report a change in your circumstances","description":"Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/carers-allowance","title":"Carer's Allowance","description":"Apply for Carer's Allowance - money to help you look after someone who needs to be cared for. Apply online or use form DS700.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/carers-allowance-report-change","title":"Carer's Allowance: report changes","description":"Report changes in circumstances if you're claiming or have applied for Carer's Allowance - if you get a job, take a break from caring for someone, stop being a carer","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/carers-credit","title":"Carer's Credit","description":"Carer's Credit helps carers fill gaps in your National Insurance record to help you qualify for the State Pensions and other benefits - what you'll get, eligibility and how to claim","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pension-credit","title":"Pension Credit","description":"Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/dla-disability-living-allowance-benefit","title":"Disability Living Allowance (DLA) for adults","description":"Disability Living Allowance (DLA) for adults - DLA rates, eligibility, changes because of Personal Independence Payment.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pip","title":"Personal Independence Payment (PIP)","description":"Personal Independence Payment (PIP) - how and when to claim, rates, eligibility, change of circumstances, claiming due to a terminal illness.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/universal-credit","title":"Universal Credit","description":"Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/become-appointee-for-someone-claiming-benefits","title":"Become an appointee for someone claiming benefits","description":"Apply to become an appointee for someone claiming benefits - how to apply, stop being an appointee ","isStepByStep":false,"popular":false}]}
+{
+    "ref": "support-caring-for-someone",
+    "title": "Support if you're caring for someone",
+    "subtopics": [
+        {
+            "ref": "managing-benefits",
+            "title": "Managing your benefits"
+        },
+        {
+            "ref": "carer-for-adult",
+            "title": "Being a carer for an adult"
+        },
+        {
+            "ref": "acting-on-someones-behalf",
+            "title": "Acting on someone's behalf"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/check-benefits-financial-support",
+            "title": "Check benefits and financial support you can get",
+            "description": "Find out what benefits and financial support you may be able to get.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/benefits-calculators",
+            "title": "Benefits calculators",
+            "description": "Find out what benefits you could get, how much you could get and how to claim ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/report-benefits-change-circumstances",
+            "title": "Benefits: report a change in your circumstances",
+            "description": "Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/carers-allowance",
+            "title": "Carer's Allowance",
+            "description": "Apply for Carer's Allowance - money to help you look after someone who needs to be cared for. Apply online or use form DS700.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/carers-allowance-report-change",
+            "title": "Carer's Allowance: report changes",
+            "description": "Report changes in circumstances if you're claiming or have applied for Carer's Allowance - if you get a job, take a break from caring for someone, stop being a carer",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/carers-credit",
+            "title": "Carer's Credit",
+            "description": "Carer's Credit helps carers fill gaps in your National Insurance record to help you qualify for the State Pensions and other benefits - what you'll get, eligibility and how to claim",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pension-credit",
+            "title": "Pension Credit",
+            "description": "Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/dla-disability-living-allowance-benefit",
+            "title": "Disability Living Allowance (DLA) for adults",
+            "description": "Disability Living Allowance (DLA) for adults - DLA rates, eligibility, changes because of Personal Independence Payment.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pip",
+            "title": "Personal Independence Payment (PIP)",
+            "description": "Personal Independence Payment (PIP) - how and when to claim, rates, eligibility, change of circumstances, claiming due to a terminal illness.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/universal-credit",
+            "title": "Universal Credit",
+            "description": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/become-appointee-for-someone-claiming-benefits",
+            "title": "Become an appointee for someone claiming benefits",
+            "description": "Apply to become an appointee for someone claiming benefits - how to apply, stop being an appointee ",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

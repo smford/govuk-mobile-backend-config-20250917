@@ -1,1 +1,42 @@
-{"ref":"retiring-taking-pension","title":"Retiring and taking your pension","subtopics":[],"content":[{"url":"https://www.gov.uk/get-state-pension","title":"Get your State Pension","description":"What you need to do to get your State Pension online.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/workplace-pensions/managing-your-pension","title":"Workplace pensions","description":"Workplace pensions and automatic enrolment - how you're affected, how pensions are protected, what happens if you move job or go on maternity leave and how to opt out","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/tax-on-pension","title":"Tax when you get a pension","description":"Income Tax on payments from pensions, tax-free allowances, how you pay tax on pensions.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/tax-national-insurance-after-state-pension-age","title":"National Insurance and tax after State Pension age","description":"Age-related tax allowance, calculating tax if you carry on working, National Insurance payments","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/nominate-someone-to-collect-state-pension","title":"Nominate someone to collect State Pension","description":"Find out how to nominate someone to collect your State Pension for you","isStepByStep":false,"popular":false}]}
+{
+    "ref": "retiring-taking-pension",
+    "title": "Retiring and taking your pension",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/get-state-pension",
+            "title": "Get your State Pension",
+            "description": "What you need to do to get your State Pension online.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/workplace-pensions/managing-your-pension",
+            "title": "Workplace pensions",
+            "description": "Workplace pensions and automatic enrolment - how you're affected, how pensions are protected, what happens if you move job or go on maternity leave and how to opt out",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tax-on-pension",
+            "title": "Tax when you get a pension",
+            "description": "Income Tax on payments from pensions, tax-free allowances, how you pay tax on pensions.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/tax-national-insurance-after-state-pension-age",
+            "title": "National Insurance and tax after State Pension age",
+            "description": "Age-related tax allowance, calculating tax if you carry on working, National Insurance payments",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/nominate-someone-to-collect-state-pension",
+            "title": "Nominate someone to collect State Pension",
+            "description": "Find out how to nominate someone to collect your State Pension for you",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

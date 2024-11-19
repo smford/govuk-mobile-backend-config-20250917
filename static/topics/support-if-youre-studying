@@ -1,1 +1,49 @@
-{"ref":"support-if-youre-studying","title":"Support if you're studying","subtopics":[],"content":[{"url":"https://www.gov.uk/parents-learning-allowance","title":"Parents' Learning Allowance","description":"Parents' Learning Allowance for full-time students with children - funding, apply, eligibility.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/childcare-grant","title":"Childcare Grant","description":"Childcare Grants for full-time students in higher education - grants, CCG1, CCG2 forms, how to apply, eligibility ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/care-to-learn","title":"Care to Learn","description":"Care to Learn helps pay for childcare while you're studying - how to apply, money you get, courses that qualify, eligibility ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/parents-learning-allowance","title":"Parents' Learning Allowance","description":"Parents' Learning Allowance for full-time students with children - funding, apply, eligibility.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/childcare-grant","title":"Childcare Grant","description":"Childcare Grants for full-time students in higher education - grants, CCG1, CCG2 forms, how to apply, eligibility ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/care-to-learn","title":"Care to Learn","description":"Care to Learn helps pay for childcare while you're studying - how to apply, money you get, courses that qualify, eligibility ","isStepByStep":false,"popular":false}]}
+{
+    "ref": "support-if-youre-studying",
+    "title": "Support if you're studying",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/parents-learning-allowance",
+            "title": "Parents' Learning Allowance",
+            "description": "Parents' Learning Allowance for full-time students with children - funding, apply, eligibility.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/childcare-grant",
+            "title": "Childcare Grant",
+            "description": "Childcare Grants for full-time students in higher education - grants, CCG1, CCG2 forms, how to apply, eligibility ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/care-to-learn",
+            "title": "Care to Learn",
+            "description": "Care to Learn helps pay for childcare while you're studying - how to apply, money you get, courses that qualify, eligibility ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/parents-learning-allowance",
+            "title": "Parents' Learning Allowance",
+            "description": "Parents' Learning Allowance for full-time students with children - funding, apply, eligibility.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/childcare-grant",
+            "title": "Childcare Grant",
+            "description": "Childcare Grants for full-time students in higher education - grants, CCG1, CCG2 forms, how to apply, eligibility ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/care-to-learn",
+            "title": "Care to Learn",
+            "description": "Care to Learn helps pay for childcare while you're studying - how to apply, money you get, courses that qualify, eligibility ",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

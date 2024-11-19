@@ -1,1 +1,68 @@
-{"ref":"becoming-responsible-for-a-child","title":"Becoming responsible for a child","subtopics":[{"ref":"parenting-guardianship","title":"Parenting and guardianship"}],"content":[{"url":"https://www.gov.uk/looking-after-someone-elses-child","title":"Looking after someone else's child","description":"Support and benefits you can get if you're looking after someone else's child, court orders - kinship care, private fostering, friends and family care","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/becoming-foster-parent","title":"Becoming a foster parent in England","description":"Foster carers look after children when their parents are not able to - becoming a foster carer, money and support available, fostering agencies, foster parents","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/support-for-foster-parents","title":"Help and support for foster parents in England","description":"Support for foster carers, including financial help, tax arrangements, how to make decisions for your foster child, claiming benefit while fostering, and other help.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-special-guardian","title":"Become a special guardian","description":"Find out how to apply to become a child's special guardian.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/child-adoption","title":"Child adoption","description":"The adoption process - eligibility, assessment, adoption agencies, adoption court orders, overseas adoptions and the rights of birth parents.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/criminal-record-checks-apply-role","title":"Criminal record checks when you apply for a role","description":"Who can check your criminal record for a role, the application process and how to recognise a genuine certificate.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/guardians-allowance","title":"Guardian's Allowance","description":"Guardian's Allowance help if you're looking after a child who is not your own - rates, eligibility, how to claim, appeal a decision.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/if-your-child-is-taken-into-care","title":"If your child is taken into care","description":"What happens when a child is taken into care - who is responsible for what, care proceedings, care orders, going to court and the role of Cafcass","isStepByStep":false,"popular":false}]}
+{
+    "ref": "becoming-responsible-for-a-child",
+    "title": "Becoming responsible for a child",
+    "subtopics": [
+        {
+            "ref": "parenting-guardianship",
+            "title": "Parenting and guardianship"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/looking-after-someone-elses-child",
+            "title": "Looking after someone else's child",
+            "description": "Support and benefits you can get if you're looking after someone else's child, court orders - kinship care, private fostering, friends and family care",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/becoming-foster-parent",
+            "title": "Becoming a foster parent in England",
+            "description": "Foster carers look after children when their parents are not able to - becoming a foster carer, money and support available, fostering agencies, foster parents",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/support-for-foster-parents",
+            "title": "Help and support for foster parents in England",
+            "description": "Support for foster carers, including financial help, tax arrangements, how to make decisions for your foster child, claiming benefit while fostering, and other help.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-special-guardian",
+            "title": "Become a special guardian",
+            "description": "Find out how to apply to become a child's special guardian.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/child-adoption",
+            "title": "Child adoption",
+            "description": "The adoption process - eligibility, assessment, adoption agencies, adoption court orders, overseas adoptions and the rights of birth parents.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/criminal-record-checks-apply-role",
+            "title": "Criminal record checks when you apply for a role",
+            "description": "Who can check your criminal record for a role, the application process and how to recognise a genuine certificate.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/guardians-allowance",
+            "title": "Guardian's Allowance",
+            "description": "Guardian's Allowance help if you're looking after a child who is not your own - rates, eligibility, how to claim, appeal a decision.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/if-your-child-is-taken-into-care",
+            "title": "If your child is taken into care",
+            "description": "What happens when a child is taken into care - who is responsible for what, care proceedings, care orders, going to court and the role of Cafcass",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

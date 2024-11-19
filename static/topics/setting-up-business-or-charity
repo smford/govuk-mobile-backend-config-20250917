@@ -1,1 +1,110 @@
-{"ref":"setting-up-business-or-charity","title":"Setting up a business or charity","subtopics":[{"ref":"dealing-with-HMRC","title":"Dealing with HMRC"}],"content":[{"url":"https://www.gov.uk/get-information-about-a-company","title":"Get information about a company","description":"Get company information including registered address, previous company names, directors' details, accounts, annual returns and company reports, if it's been dissolved ","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/set-up-as-sole-trader","title":"Set up as a sole trader","description":"What you need to do if you set up as a sole trader - check your employment status, understand your obligations, and register for tax.","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/set-up-limited-company","title":"Set up a limited company","description":"How to set up a limited company, appoint directors and shareholders or guarantors, and register for tax.\r\n","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/set-up-business-partnership","title":"Set up a business partnership","description":"Set up and run a business partnership - naming a partnership, registering with HMRC, partnership tax returns and legal responsibilities ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/set-up-a-social-enterprise","title":"Setting up a social enterprise","description":"Start a business to help people or communities - business structures including community interest companies and co-operatives","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/set-up-business","title":"Set up a business","description":"What you need to do to start a business: choose a legal structure, see if you need licences and insurance, learn about reliefs and benefits","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/working-for-yourself","title":"Working for yourself","description":"What you need to do if you start working for yourself.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/register-as-an-overseas-company","title":"Register as an overseas company","description":"You must register as an overseas company in the UK to do business legally - find out about what you need to do","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/set-up-a-charity","title":"Set up a charity ","description":"How to set up a charity: find trustees, choose a name and structure, create a governing document, meet the public benefit requirement, register your charity.","isStepByStep":true,"popular":false},{"url":"https://www.gov.uk/charity-recognition-hmrc","title":"Get recognition from HMRC for your charity","description":"Charities can register online with HMRC and claim tax relief or get tax back on Gift Aid donations and bank interest, charitable purposes, registration ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/charities-and-tax","title":"Charities and tax","description":"Tax exemptions and reliefs for charities - apply for recognition by HMRC as a charity, reclaim tax on Gift Aid, profits and expenditure","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/business-support-service","title":"Get help and support for your business","description":"Get business support and advice over the phone and online - setting up and running a business.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/apply-start-up-loan","title":"Apply for a Start Up Loan for your business","description":"Loans and mentoring for people looking to start or grow a business in England, Scotland, Wales and Northern Ireland","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/find-licences","title":"Find a licence","description":"Find licences, permits or certifications you may need for yourself or your business.","isStepByStep":false,"popular":false}]}
+{
+    "ref": "setting-up-business-or-charity",
+    "title": "Setting up a business or charity",
+    "subtopics": [
+        {
+            "ref": "dealing-with-HMRC",
+            "title": "Dealing with HMRC"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/get-information-about-a-company",
+            "title": "Get information about a company",
+            "description": "Get company information including registered address, previous company names, directors' details, accounts, annual returns and company reports, if it's been dissolved ",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/set-up-as-sole-trader",
+            "title": "Set up as a sole trader",
+            "description": "What you need to do if you set up as a sole trader - check your employment status, understand your obligations, and register for tax.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/set-up-limited-company",
+            "title": "Set up a limited company",
+            "description": "How to set up a limited company, appoint directors and shareholders or guarantors, and register for tax.\r\n",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/set-up-business-partnership",
+            "title": "Set up a business partnership",
+            "description": "Set up and run a business partnership - naming a partnership, registering with HMRC, partnership tax returns and legal responsibilities ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/set-up-a-social-enterprise",
+            "title": "Setting up a social enterprise",
+            "description": "Start a business to help people or communities - business structures including community interest companies and co-operatives",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/set-up-business",
+            "title": "Set up a business",
+            "description": "What you need to do to start a business: choose a legal structure, see if you need licences and insurance, learn about reliefs and benefits",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/working-for-yourself",
+            "title": "Working for yourself",
+            "description": "What you need to do if you start working for yourself.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/register-as-an-overseas-company",
+            "title": "Register as an overseas company",
+            "description": "You must register as an overseas company in the UK to do business legally - find out about what you need to do",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/set-up-a-charity",
+            "title": "Set up a charity ",
+            "description": "How to set up a charity: find trustees, choose a name and structure, create a governing document, meet the public benefit requirement, register your charity.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/charity-recognition-hmrc",
+            "title": "Get recognition from HMRC for your charity",
+            "description": "Charities can register online with HMRC and claim tax relief or get tax back on Gift Aid donations and bank interest, charitable purposes, registration ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/charities-and-tax",
+            "title": "Charities and tax",
+            "description": "Tax exemptions and reliefs for charities - apply for recognition by HMRC as a charity, reclaim tax on Gift Aid, profits and expenditure",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/business-support-service",
+            "title": "Get help and support for your business",
+            "description": "Get business support and advice over the phone and online - setting up and running a business.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-start-up-loan",
+            "title": "Apply for a Start Up Loan for your business",
+            "description": "Loans and mentoring for people looking to start or grow a business in England, Scotland, Wales and Northern Ireland",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/find-licences",
+            "title": "Find a licence",
+            "description": "Find licences, permits or certifications you may need for yourself or your business.",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

@@ -1,1 +1,79 @@
-{"ref":"benefits-payments-older-people","title":"Benefits and payments for older people","subtopics":[{"ref":"benefits","title":"Benefits"},{"ref":"carer-for-adult","title":"Being a carer for an adult"}],"content":[{"url":"https://www.gov.uk/pension-credit","title":"Pension Credit","description":"Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/pension-credit-calculator","title":"Pension Credit calculator","description":"Get an estimate of how much Pension Credit you may be entitled to","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/attendance-allowance","title":"Attendance Allowance","description":"Attendance Allowance helps with extra costs if you're State Pension age and disabled: rates, eligibility, claim form AA1, claiming due to a terminal illness.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/housing-benefit","title":"Housing Benefit","description":"Housing Benefit or Local Housing Allowance (LHA) - rates, eligibility, claim form, calculator, appeals, 'Discretionary Housing Payment'.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/apply-for-elderly-person-bus-pass","title":"Apply for an older person's bus pass","description":"Some older people can get free travel on local buses - contact your council to check your eligibility and apply for a bus pass","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/the-warm-home-discount-scheme","title":"Warm Home Discount Scheme","description":"The Warm Home Discount Scheme could take £150 off your winter electricity bill - eligibility, how to get your discount, deadlines.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/winter-fuel-payment","title":"Winter Fuel Payment","description":"Winter Fuel Payment helps older people with their heating bills - claim form, how much you get, eligibility","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/cold-weather-payment","title":"Cold Weather Payment","description":"Cold Weather Payment - what you'll get, eligibility and how to find out if your area is due a payment ","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/free-discount-tv-licence","title":"Get a free or discounted TV licence","description":"You can get a free TV licence if you're 75 or over and you get Pension Credit, or a discount if you're blind or in residential care - who qualifies, how to apply","isStepByStep":false,"popular":false}]}
+{
+    "ref": "benefits-payments-older-people",
+    "title": "Benefits and payments for older people",
+    "subtopics": [
+        {
+            "ref": "benefits",
+            "title": "Benefits"
+        },
+        {
+            "ref": "carer-for-adult",
+            "title": "Being a carer for an adult"
+        }
+    ],
+    "content": [
+        {
+            "url": "https://www.gov.uk/pension-credit",
+            "title": "Pension Credit",
+            "description": "Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/pension-credit-calculator",
+            "title": "Pension Credit calculator",
+            "description": "Get an estimate of how much Pension Credit you may be entitled to",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/attendance-allowance",
+            "title": "Attendance Allowance",
+            "description": "Attendance Allowance helps with extra costs if you're State Pension age and disabled: rates, eligibility, claim form AA1, claiming due to a terminal illness.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/housing-benefit",
+            "title": "Housing Benefit",
+            "description": "Housing Benefit or Local Housing Allowance (LHA) - rates, eligibility, claim form, calculator, appeals, 'Discretionary Housing Payment'.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/apply-for-elderly-person-bus-pass",
+            "title": "Apply for an older person's bus pass",
+            "description": "Some older people can get free travel on local buses - contact your council to check your eligibility and apply for a bus pass",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/the-warm-home-discount-scheme",
+            "title": "Warm Home Discount Scheme",
+            "description": "The Warm Home Discount Scheme could take £150 off your winter electricity bill - eligibility, how to get your discount, deadlines.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/winter-fuel-payment",
+            "title": "Winter Fuel Payment",
+            "description": "Winter Fuel Payment helps older people with their heating bills - claim form, how much you get, eligibility",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/cold-weather-payment",
+            "title": "Cold Weather Payment",
+            "description": "Cold Weather Payment - what you'll get, eligibility and how to find out if your area is due a payment ",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/free-discount-tv-licence",
+            "title": "Get a free or discounted TV licence",
+            "description": "You can get a free TV licence if you're 75 or over and you get Pension Credit, or a discount if you're blind or in residential care - who qualifies, how to apply",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}

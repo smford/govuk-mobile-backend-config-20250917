@@ -1,1 +1,70 @@
-{"ref":"going-into-care-as-an-adult","title":"Going into care as an adult","subtopics":[],"content":[{"url":"https://www.gov.uk/going-to-care-home-benefits","title":"Going into a care home if you get benefits","description":"What to do if you go into a care home and you get benefits","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/report-benefits-change-circumstances","title":"Benefits: report a change in your circumstances","description":"Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/carers-allowance-report-change","title":"Carer's Allowance: report changes","description":"Report changes in circumstances if you're claiming or have applied for Carer's Allowance - if you get a job, take a break from caring for someone, stop being a carer","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/attendance-allowance","title":"Attendance Allowance","description":"Attendance Allowance helps with extra costs if you're State Pension age and disabled: rates, eligibility, claim form AA1, claiming due to a terminal illness.","isStepByStep":false,"popular":true},{"url":"https://www.gov.uk/pension-credit","title":"Pension Credit","description":"Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/dla-disability-living-allowance-benefit","title":"Disability Living Allowance (DLA) for adults","description":"Disability Living Allowance (DLA) for adults - DLA rates, eligibility, changes because of Personal Independence Payment.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/pip","title":"Personal Independence Payment (PIP)","description":"Personal Independence Payment (PIP) - how and when to claim, rates, eligibility, change of circumstances, claiming due to a terminal illness.","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/benefits-end-of-life","title":"Get benefits if you're nearing the end of life","description":"If you're terminally ill and might not live longer than 12 months, you may be able to get some benefits at a higher rate. \r\n","isStepByStep":false,"popular":false},{"url":"https://www.gov.uk/going-to-hospital-benefits","title":"Going into hospital if you get benefits","description":"What to do if you go into hospital and you get benefits ","isStepByStep":false,"popular":false}]}
+{
+    "ref": "going-into-care-as-an-adult",
+    "title": "Going into care as an adult",
+    "subtopics": [],
+    "content": [
+        {
+            "url": "https://www.gov.uk/going-to-care-home-benefits",
+            "title": "Going into a care home if you get benefits",
+            "description": "What to do if you go into a care home and you get benefits",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/report-benefits-change-circumstances",
+            "title": "Benefits: report a change in your circumstances",
+            "description": "Reasons why your benefit payments could change, report changes in your circumstances while claiming benefits",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/carers-allowance-report-change",
+            "title": "Carer's Allowance: report changes",
+            "description": "Report changes in circumstances if you're claiming or have applied for Carer's Allowance - if you get a job, take a break from caring for someone, stop being a carer",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/attendance-allowance",
+            "title": "Attendance Allowance",
+            "description": "Attendance Allowance helps with extra costs if you're State Pension age and disabled: rates, eligibility, claim form AA1, claiming due to a terminal illness.",
+            "isStepByStep": false,
+            "popular": true
+        },
+        {
+            "url": "https://www.gov.uk/pension-credit",
+            "title": "Pension Credit",
+            "description": "Pension Credit is extra money for pensioners to bring your weekly income up to a minimum amount - what you'll get, apply, eligibility.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/dla-disability-living-allowance-benefit",
+            "title": "Disability Living Allowance (DLA) for adults",
+            "description": "Disability Living Allowance (DLA) for adults - DLA rates, eligibility, changes because of Personal Independence Payment.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/pip",
+            "title": "Personal Independence Payment (PIP)",
+            "description": "Personal Independence Payment (PIP) - how and when to claim, rates, eligibility, change of circumstances, claiming due to a terminal illness.",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/benefits-end-of-life",
+            "title": "Get benefits if you're nearing the end of life",
+            "description": "If you're terminally ill and might not live longer than 12 months, you may be able to get some benefits at a higher rate. \r\n",
+            "isStepByStep": false,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/going-to-hospital-benefits",
+            "title": "Going into hospital if you get benefits",
+            "description": "What to do if you go into hospital and you get benefits ",
+            "isStepByStep": false,
+            "popular": false
+        }
+    ]
+}
