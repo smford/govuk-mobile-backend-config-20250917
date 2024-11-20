@@ -38,3 +38,7 @@ jobs:
         aws-region: eu-west-1
     - name: Deploy to S3
       run: find config static -type f | xargs tools/deploy-signed-json.sh
+    - name: Clean up deleted files - config
+      run: aws s3 sync --delete config "s3://$BUCKET_NAME/config"
+    - name: Clean up deleted files - static
+      run: aws s3 sync --delete static "s3://$BUCKET_NAME/static"
