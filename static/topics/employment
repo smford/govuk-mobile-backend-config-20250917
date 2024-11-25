@@ -38,6 +38,55 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/plan-for-retirement",
+            "title": "Plan your retirement income",
+            "description": "Plan your retirement income - State Pension, improve your pension, pay National Insurance, check your State Pension age",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-tax-free-childcare",
+            "title": "Get Tax-Free Childcare",
+            "description": "Check if you're eligible for Tax-Free Childcare, how to apply and how to pay your childcare provider.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-free-childcare-if-youre-working",
+            "title": "Get free childcare if you're working",
+            "description": "How to apply and get a code for free childcare for your child aged 9 months to 4-years old if you’re working.\r\n",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-tax-free-childcare",
+            "title": "Get Tax-Free Childcare",
+            "description": "Check if you're eligible for Tax-Free Childcare, how to apply and how to pay your childcare provider.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/plan-for-retirement",
+            "title": "Plan your retirement income",
+            "description": "Plan your retirement income - State Pension, improve your pension, pay National Insurance, check your State Pension age",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/how-to-claim-universal-credit",
+            "title": "How to claim Universal Credit",
+            "description": "Find out if you're eligible for Universal Credit and how to claim.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/how-to-claim-new-style-jsa",
+            "title": "How to claim New Style Jobseeker's Allowance (JSA)",
+            "description": "Find out if you're eligible for New Style Jobseeker's Allowance and how to claim. ",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/personal-tax-account",
             "title": "Personal tax account: sign in or set up",
             "description": "Sign into or set up a personal tax account to check and manage HMRC records, including Income Tax, change of address, Self Assessment and company car tax.",

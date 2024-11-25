@@ -62,6 +62,69 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/learn-to-drive-a-car",
+            "title": "Learn to drive a car",
+            "description": "Learn to drive a car in the UK - get a provisional licence, take driving lessons, prepare for your theory test, book your practical test",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/drive-abroad",
+            "title": "Drive abroad",
+            "description": "How to drive abroad, whether you need an international driving permit and what to check.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/buy-a-vehicle",
+            "title": "Buy a vehicle",
+            "description": "Buy a vehicle - how to check you’re not buying a stolen vehicle. Registering, taxing and insuring your vehicle.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/mot-lorry-bus-trailer",
+            "title": "Get an annual test (MOT) for a lorry, bus or trailer",
+            "description": "Check how to get an annual test (MOT) for a heavy goods vehicle (HGV) or public service vehicle (PSV) - how to book the test, prepare the vehicle and documents and the test result.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/tell-dvla-changed-address",
+            "title": "Tell DVLA you've changed address",
+            "description": "Tell DVLA when your address changes so your driving licence, vehicle log book (V5C), vehicle tax and other details are up to date",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-personalised-private-number-plate",
+            "title": "Get a private (personalised) number plate",
+            "description": "Get a private number plate for your vehicle - buy a number plate, transfer a number plate",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/mot-lorry-bus-trailer",
+            "title": "Get an annual test (MOT) for a lorry, bus or trailer",
+            "description": "Check how to get an annual test (MOT) for a heavy goods vehicle (HGV) or public service vehicle (PSV) - how to book the test, prepare the vehicle and documents and the test result.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/transport-goods-from-uk-by-road",
+            "title": "Transport goods out of the UK by road",
+            "description": "How to transport goods out of the UK by road - vehicle operator licences and permits, driver documents and road haulage rules.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/become-car-driving-instructor",
+            "title": "Become a car driving instructor",
+            "description": "You must become an approved driving instructor (ADI) if you want to charge people for lessons. You can do this as part of a driving school or by setting up your own business.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/vehicle-tax",
             "title": "Tax your vehicle",
             "description": "Renew or tax your vehicle for the first time using a reminder letter, your log book or the green 'new keeper' slip - and how to tax if you do not have any documents",

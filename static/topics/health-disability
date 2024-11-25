@@ -30,6 +30,13 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/how-to-claim-universal-credit",
+            "title": "How to claim Universal Credit",
+            "description": "Find out if you're eligible for Universal Credit and how to claim.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/apply-blue-badge",
             "title": "Apply for or renew a Blue Badge",
             "description": "Check if you're eligible for a Blue Badge and apply or renew",

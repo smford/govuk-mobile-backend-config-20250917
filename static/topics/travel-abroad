@@ -26,6 +26,20 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/drive-abroad",
+            "title": "Drive abroad",
+            "description": "How to drive abroad, whether you need an international driving permit and what to check.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/bring-your-pet-to-great-britain",
+            "title": "Bring your pet to Great Britain",
+            "description": "Bring your pet to Great Britain - microchipping, pet passports, vaccinations ",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/foreign-travel-advice",
             "title": "Foreign travel advice",
             "description": "Get advice and warnings about travel abroad, including entry requirements, safety and security, health risks and legal differences.",
