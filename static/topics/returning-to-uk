@@ -46,10 +46,10 @@
             "popular": false
         },
         {
-            "url": "https://www.gov.uk/bring-pet-to-great-britain",
-            "title": "Bringing your pet dog, cat or ferret to Great Britain",
-            "description": "Bringing pets into Great Britain: pet passports, Great Britain pet health certificates, microchipping, rabies vaccinations, travelling with assistance dogs.",
-            "isStepByStep": false,
+            "url": "https://www.gov.uk/bring-your-pet-to-great-britain",
+            "title": "Bring your pet to Great Britain",
+            "description": "Bring your pet to Great Britain - microchipping, pet passports, vaccinations ",
+            "isStepByStep": true,
             "popular": false
         },
         {
