@@ -38,22 +38,22 @@
         },
         {
             "url": "https://www.gov.uk/jobseekers-allowance/report-a-change-of-circumstances",
-            "title": "Jobseeker's Allowance (JSA)",
-            "description": "Jobseeker's Allowance (JSA) is an unemployment benefit you can claim while looking for work - how to apply online, New Style Jobseeker's Allowance (JSA), eligibility, rates, rapid reclaim, JSA interview, when payment can be stopped",
+            "title": "Jobseeker's Allowance (JSA): Report a change of circumstances",
+            "description": "When you must report a change in your circumstances that could affect your New Style Jobseekers’ Allowance (JSA) or income-based JSA, and how to do it.",
             "isStepByStep": false,
             "popular": false
         },
         {
             "url": "https://www.gov.uk/employment-support-allowance/change-of-circumstances",
-            "title": "Employment and Support Allowance (ESA)",
-            "description": "Employment and Support Allowance (ESA) money if you cannot work because of illness or disability - rates, eligibility, apply, assessment.",
+            "title": "Employment and Support Allowance (ESA): Report a change of circumstances",
+            "description": "When you must report a change in your circumstances so you keep getting the right amount of Employment and Support Allowance (ESA), and how to do it.",
             "isStepByStep": false,
             "popular": false
         },
         {
             "url": "https://www.gov.uk/universal-credit/changes-of-circumstances",
-            "title": "Universal Credit",
-            "description": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.",
+            "title": "Universal Credit: Report a change of circumstances",
+            "description": "When you must report a change in your circumstances so you keep getting the right amount of Universal Credit, and how to do it.",
             "isStepByStep": false,
             "popular": false
         },

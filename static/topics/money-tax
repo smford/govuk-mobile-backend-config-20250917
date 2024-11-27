@@ -42,6 +42,13 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/when-someone-dies",
+            "title": "What to do when someone dies",
+            "description": "Check what to do after a death - how to register the death, notify government departments and deal with the estate.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/personal-tax-account",
             "title": "Personal tax account: sign in or set up",
             "description": "Sign into or set up a personal tax account to check and manage HMRC records, including Income Tax, change of address, Self Assessment and company car tax.",

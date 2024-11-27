@@ -46,6 +46,62 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/set-up-as-sole-trader",
+            "title": "Set up as a sole trader",
+            "description": "What you need to do if you set up as a sole trader - check your employment status, understand your obligations, and register for tax.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/set-up-limited-company",
+            "title": "Set up a limited company",
+            "description": "How to set up a limited company, appoint directors and shareholders or guarantors, and register for tax.\r\n",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/set-up-a-charity",
+            "title": "Set up a charity ",
+            "description": "How to set up a charity: find trustees, choose a name and structure, create a governing document, meet the public benefit requirement, register your charity.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-ready-to-employ-someone",
+            "title": "Get your business ready to employ staff",
+            "description": "Get your business ready to employ staff - your responsibilities as an employer, register with HMRC, set up PAYE, get insurance",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/employ-someone",
+            "title": "Employ someone",
+            "description": "Employ someone: agree a contract, right to work checks, DBS checks, workplace pensions, set up PAYE, tell HMRC",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/import-goods-into-uk",
+            "title": "Import goods into the UK",
+            "description": "How to bring goods into the UK from any country, including how much tax and duty you’ll need to pay and whether you need to get a licence or certificate.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/import-customs-declaration",
+            "title": "Get UK customs clearance when importing goods into the UK",
+            "description": "How to make an import declaration and get goods through the UK border.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/export-goods",
+            "title": "Export goods from the UK",
+            "description": "How to move goods from the UK to international destinations, including any special rules you’ll need to follow to move your goods from the UK. ",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/get-information-about-a-company",
             "title": "Get information about a company",
             "description": "Get company information including registered address, previous company names, directors' details, accounts, annual returns and company reports, if it's been dissolved ",

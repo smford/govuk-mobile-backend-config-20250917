@@ -34,6 +34,27 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/get-undergraduate-student-loan",
+            "title": "Get undergraduate student finance",
+            "description": "Check if you're eligible for a student loan, find out how much you can get, how to apply and when you start repaying.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/study-uk-student-visa",
+            "title": "Study in the UK on a Student visa ",
+            "description": "Student visa - check which courses you can study, prepare supporting documents, apply, what happens at the UK border",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/apply-short-term-study-visa",
+            "title": "Apply for a Short-term study visa",
+            "description": "Short-term study visa - prepare supporting documents, apply, book and attend an appointment, what happens at the UK border",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/student-finance-register-login",
             "title": "Student finance login",
             "description": "Your student finance online account - check payment dates, track an application, change details, reset password, find customer reference numbers",

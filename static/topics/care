@@ -26,6 +26,20 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/get-childcare",
+            "title": "Get childcare",
+            "description": "How to find childcare, get help paying for it and what to do if your circumstances change.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/get-undergraduate-student-loan",
+            "title": "Get undergraduate student finance",
+            "description": "Check if you're eligible for a student loan, find out how much you can get, how to apply and when you start repaying.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/benefits-calculators",
             "title": "Benefits calculators",
             "description": "Find out what benefits you could get, how much you could get and how to claim ",

@@ -46,6 +46,20 @@
     ],
     "content": [
         {
+            "url": "https://www.gov.uk/how-to-claim-universal-credit",
+            "title": "How to claim Universal Credit",
+            "description": "Find out if you're eligible for Universal Credit and how to claim.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/when-someone-dies",
+            "title": "What to do when someone dies",
+            "description": "Check what to do after a death - how to register the death, notify government departments and deal with the estate.",
+            "isStepByStep": true,
+            "popular": false
+        },
+        {
             "url": "https://www.gov.uk/sign-in-universal-credit",
             "title": "Sign in to your Universal Credit account",
             "description": "Sign in to your Universal Credit account - report a change, add a note to your journal, see your payments and do other tasks ",
