@@ -59,20 +59,6 @@
             "popular": false
         },
         {
-            "url": "https://www.gov.uk/get-tax-free-childcare",
-            "title": "Get Tax-Free Childcare",
-            "description": "Check if you're eligible for Tax-Free Childcare, how to apply and how to pay your childcare provider.",
-            "isStepByStep": true,
-            "popular": false
-        },
-        {
-            "url": "https://www.gov.uk/plan-for-retirement",
-            "title": "Plan your retirement income",
-            "description": "Plan your retirement income - State Pension, improve your pension, pay National Insurance, check your State Pension age",
-            "isStepByStep": true,
-            "popular": false
-        },
-        {
             "url": "https://www.gov.uk/how-to-claim-universal-credit",
             "title": "How to claim Universal Credit",
             "description": "Find out if you're eligible for Universal Credit and how to claim.",
