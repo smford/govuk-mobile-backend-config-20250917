@@ -65,13 +65,6 @@
             "description": "Tell HMRC about changes to your business - a change of name, address, legal structure or business activity ",
             "isStepByStep": false,
             "popular": false
-        },
-        {
-            "url": "https://www.gov.uk/find-licences",
-            "title": "Find a licence",
-            "description": "Find licences, permits or certifications you may need for yourself or your business.",
-            "isStepByStep": false,
-            "popular": false
         }
     ]
 }

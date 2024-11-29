@@ -13,3 +13,5 @@ jobs:
       run: find versions -name *.toml | xargs npm start validate
     - name: Validate static JSON
       run: find static -type f | xargs tools/json-check.sh
+    - name: Check for duplicate topic data
+      run: node tools/dupe-detect.js
