@@ -43,7 +43,7 @@
             "title": "Calculate your employee’s statutory redundancy pay",
             "description": "Employer calculator - calculate your employee’s statutory redundancy payment",
             "isStepByStep": false,
-            "popular": false
+            "popular": true
         },
         {
             "url": "https://www.gov.uk/transfers-takeovers",
