@@ -1,7 +1,12 @@
 {
     "ref": "child-benefit",
     "title": "Child Benefit",
-    "subtopics": [],
+    "subtopics": [
+        {
+            "ref": "managing-benefits",
+            "title": "Managing your benefits"
+        }
+    ],
     "content": [
         {
             "url": "https://www.gov.uk/child-benefit",
@@ -50,7 +55,7 @@
             "title": "Report changes that affect your Child Benefit",
             "description": "How and when to report changes that affect your Child Benefit payments, such as earnings going above £60,000. How to update a change of address or bank details.\r\n",
             "isStepByStep": false,
-            "popular": false
+            "popular": true
         },
         {
             "url": "https://www.gov.uk/government/organisations/hm-revenue-customs/contact/child-benefit",
