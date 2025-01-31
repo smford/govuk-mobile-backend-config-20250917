@@ -33,7 +33,7 @@
         },
         {
             "url": "https://www.gov.uk/help-with-childcare-costs",
-            "title": "Help paying for childcare",
+            "title": "Childcare you can get help paying for ('approved childcare')",
             "description": "Help with the cost of paying for approved childcare - Tax-Free Childcare, 15 and 30 hours childcare, childcare vouchers, tax credits, Learner Support.",
             "isStepByStep": false,
             "popular": true
@@ -130,8 +130,8 @@
             "popular": false
         },
         {
-            "url": "https://www.gov.uk/help-with-childcare-costs",
-            "title": "Help paying for childcare",
+            "url": "https://www.gov.uk/help-with-childcare-costs/free-childcare-2-year-olds-claim-benefits",
+            "title": "Free education and childcare for 2-year-olds if you claim certain benefits",
             "description": "Help with the cost of paying for approved childcare - Tax-Free Childcare, 15 and 30 hours childcare, childcare vouchers, tax credits, Learner Support.",
             "isStepByStep": false,
             "popular": false
