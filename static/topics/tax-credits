@@ -18,8 +18,8 @@
             "popular": true
         },
         {
-            "url": "https://www.gov.uk/claim-tax-credits",
-            "title": "How to claim tax credits",
+            "url": "https://www.gov.uk/update-tax-credits",
+            "title": "How to update your tax credit claim",
             "description": "How to start a tax credits claim, when to claim, joint claims, backdate a claim",
             "isStepByStep": false,
             "popular": true
