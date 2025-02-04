@@ -36,14 +36,14 @@
             "title": "Making staff redundant",
             "description": "Rules employers must follow when making staff redundant - consultations, notice periods, compulsory and non-compulsory redundancy and redundancy pay",
             "isStepByStep": false,
-            "popular": true
+            "popular": false
         },
         {
             "url": "https://www.gov.uk/calculate-employee-redundancy-pay",
             "title": "Calculate your employee’s statutory redundancy pay",
             "description": "Employer calculator - calculate your employee’s statutory redundancy payment",
             "isStepByStep": false,
-            "popular": false
+            "popular": true
         },
         {
             "url": "https://www.gov.uk/transfers-takeovers",
