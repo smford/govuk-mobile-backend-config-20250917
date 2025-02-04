@@ -1,7 +1,12 @@
 {
     "ref": "company-tax-returns",
     "title": "Company Tax Returns",
-    "subtopics": [],
+    "subtopics": [
+        {
+            "ref": "dealing-with-HMRC",
+            "title": "Dealing with HMRC"
+        }
+    ],
     "content": [
         {
             "url": "https://www.gov.uk/company-tax-returns",
