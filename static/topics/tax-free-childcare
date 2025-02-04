@@ -43,7 +43,7 @@
             "title": "Check you're eligible for free childcare if you're working",
             "description": "Find out if you're eligible for free childcare for 2 to 4 year olds if you live in England - 2 year olds can get 15 hours per week, 3 to 4 year olds 30 hours. \r\n\r\n",
             "isStepByStep": false,
-            "popular": false
+            "popular": true
         },
         {
             "url": "https://www.gov.uk/apply-for-tax-free-childcare",
