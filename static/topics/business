@@ -113,7 +113,7 @@
             "title": "Self Assessment tax returns",
             "description": "Self Assessment tax returns - deadlines, who must send a tax return, penalties, corrections and returns for someone who has died.",
             "isStepByStep": false,
-            "popular": false
+            "popular": true
         },
         {
             "url": "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
