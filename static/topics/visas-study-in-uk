@@ -51,6 +51,13 @@
             "description": "Apply for a Child Student visa to study in the UK if you're under 18 - eligibility, documents, how to apply, extend or switch, how long it takes and how much it costs",
             "isStepByStep": false,
             "popular": false
+        },
+        {
+            "url": "https://www.gov.uk/student-sponsor-loses-licence",
+            "title": "Students: if your education provider loses their sponsor licence",
+            "description": "What happens if your visa sponsor loses their licence, has it suspended or is taken over by another organisation",
+            "isStepByStep": false,
+            "popular": false
         }
     ]
 }
