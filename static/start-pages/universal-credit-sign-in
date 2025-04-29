@@ -1,0 +1,58 @@
+{
+    "pageId": "sign-in-to-your-universal-credit-account",
+    "title": "Sign in to your Universal Credit account",
+    "startButton": {
+        "label": "Sign in",
+        "href": "https://www.universal-credit.service.gov.uk/sign-in"
+    },
+    "content": [
+        {
+            "kind": "paragraph",
+            "text": "Sign in to your Universal Credit account to:",
+            "links": []
+        },
+        {
+            "kind": "bulleted_list",
+            "items": [
+                "apply for an advance on your first payment",
+                "see your statement",
+                "report a change in circumstances",
+                "add a note to your journal",
+                "see your to-do list",
+                "see when your next payment will be",
+                "see your Claimant Commitment"
+            ],
+            "links": []
+        },
+        {
+            "kind": "paragraph",
+            "text": "Use the username and password you set up when you applied for Universal Credit. You can ask for a reminder if you’re not sure.",
+            "links": []
+        },
+        {
+            "kind": "subheading",
+            "text": "Welsh (Cymraeg) version",
+            "links": []
+        },
+        {
+            "kind": "disclosure_group",
+            "items": [
+                {
+                    "label": "Welsh (Cymraeg) version",
+                    "content": [
+                        {
+                            "kind": "paragraph",
+                            "text": "This service is also available in Welsh (Cymraeg).",
+                            "links": [
+                                {
+                                    "text": "Welsh (Cymraeg) version",
+                                    "href": "https://www.gov.uk/mewngofnodi-ich-cyfrif-credyd-cynhwysol"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
