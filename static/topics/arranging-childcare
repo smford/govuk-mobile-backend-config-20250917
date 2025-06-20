@@ -25,11 +25,11 @@
             "popular": false
         },
         {
-            "url": "https://www.gov.uk/get-free-childcare-if-youre-working",
+            "url": "https://www.gov.uk/free-childcare-if-working",
             "title": "Get free childcare if you're working",
-            "description": "How to apply and get a code for free childcare for your child aged 9 months to 4-years old if you’re working.\r\n",
-            "isStepByStep": true,
-            "popular": false
+            "description": "Get free childcare if you're working",
+            "isStepByStep": false,
+            "popular": true
         },
         {
             "url": "https://www.gov.uk/help-with-childcare-costs",
@@ -95,13 +95,6 @@
             "popular": false
         },
         {
-            "url": "https://www.gov.uk/check-eligible-free-childcare-if-youre-working",
-            "title": "Check you're eligible for free childcare if you're working",
-            "description": "Find out if you're eligible for free childcare for 2 to 4 year olds if you live in England - 2 year olds can get 15 hours per week, 3 to 4 year olds 30 hours. \r\n\r\n",
-            "isStepByStep": false,
-            "popular": true
-        },
-        {
             "url": "https://www.gov.uk/tax-free-childcare",
             "title": "Tax-Free Childcare",
             "description": "What Tax-Free Childcare is, eligibility and how to apply",
@@ -123,8 +116,8 @@
             "popular": false
         },
         {
-            "url": "https://www.gov.uk/universal-credit",
-            "title": "Universal Credit",
+            "url": "https://www.gov.uk/universal-credit/what-youll-get",
+            "title": "Universal Credit: What you'll get",
             "description": "Universal Credit is replacing 6 other benefits with a single monthly payment if you're out of work or on a low income - eligibility, how to prepare.",
             "isStepByStep": false,
             "popular": false
